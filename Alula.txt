@@ -1,0 +1,4 @@
+<Greeting>
+   <class> Common27 </class>
+   <from> Alula </from>
+</Greeting>
