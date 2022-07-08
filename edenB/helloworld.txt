@@ -1,0 +1,4 @@
+"personA"[
+{"name":"eden"},
+{"age" :22},
+{"address" : "mars"}]
