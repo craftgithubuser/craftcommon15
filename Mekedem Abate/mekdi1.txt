@@ -1,1 +1,1 @@
-this is a new folder to practice git clone
+This is a new folder to practice git clone
