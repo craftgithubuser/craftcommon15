@@ -1,1 +1,8 @@
-Abcd efg hidkfjdkfjdk 
+car>
+<model>camry</model>
+<year>2012</model>
+<mile>100,000</mile>
+<make>toyota</make>
+<color>black</model>
+<door>4</door>
+</car>
