@@ -1,0 +1,1 @@
+I expected that if my work is not correct git shall be rejected the update 
