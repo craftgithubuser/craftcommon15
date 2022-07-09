@@ -1,0 +1,14 @@
+wilvernegam@LAPTOP-04VKASQR MINGW64 ~
+$ git config --global user .name "urkatowilver"
+error: key does not contain a section: user
+
+negam@LAPTOP-04VKASQR MINGW64 ~
+$ git config --global user .name "urkatowilver"
+error: key does not contain a section: user
+
+negam@LAPTOP-04VKASQR MINGW64 ~
+$ git config --global user .urkatowilver@gmail.com
+error: key does not contain a section: user
+
+negam@LAPTOP-04VKASQR MINGW64 ~
+$
