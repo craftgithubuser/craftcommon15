@@ -1,0 +1,12 @@
+[
+{
+  "Employee_Name": "Samuel",
+  "Emplopyee_Id": 34671,
+  "Employee_DeP": "Adimin"
+}
+ {
+   "Employee_Name": "Daniel",
+   "Emplopyee_Id": 78546,
+   "Employee_DeP": "Manager"
+ }
+]
