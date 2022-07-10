@@ -1,1 +1,2 @@
 wrong syntax
+correct the syntax 
