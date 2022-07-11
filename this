@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo Git commit is pushing the staged file to the local repository is the second commit,txt
 =======
 is.txt
 >>>>>>> main
+=======
+is.txt
+>>>>>>> 15bd2fec71acb1b7687cd2ba2acfd28a15bb5001
