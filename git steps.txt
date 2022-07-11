@@ -10,4 +10,5 @@ git add .
 git commit -m ""
 git pull origin main (to update)
 git push origin main
-repeat the last 4 (add, commit, pull, push) 
+repeat the last 4 (add, commit, pull, push)
+git log  
