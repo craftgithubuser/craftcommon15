@@ -3,4 +3,4 @@ TSEST ONE TWO THREE. this is a change of the first git.
 This is the beggining of the remote repository github.https://github.com/craftgithubuser/craftcommon15.git.
 TSEST ONE TWO THREE. this is a change of the first git. Test one two....
 Using the GITHUB commands are very important to exploit the system in a proper manner of git control vrsions for the managemant of codes.
-Hello guys! this is a riminder to to do your homeworm.
+Hello guys! this is a riminder to to do your homework.
