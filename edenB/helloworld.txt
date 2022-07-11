@@ -1,4 +1,10 @@
-"personA"[
+"personA":{
 {"name":"eden"},
 {"age" :22},
-{"address" : "mars"}]
+{"address" : "mars"}}
+
+"personB":{
+ {"name":"bob"},
+{"age": 45},
+{"address":"earth"}
+}
