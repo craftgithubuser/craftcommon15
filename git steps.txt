@@ -1,0 +1,1 @@
+git status,add . ,commit -m "", pull origin main, push origin main
