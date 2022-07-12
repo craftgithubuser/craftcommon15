@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 hello
  classmate
+=======
+hello everyone 
+>>>>>>> c4868d4b155598b040b5c41c0a147206ecb5f21e
