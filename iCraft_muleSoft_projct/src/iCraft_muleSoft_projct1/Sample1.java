@@ -8,6 +8,7 @@ public class Sample1 {
 //int z=2;
 //int r=-9;
 System.out.println("The theory of hungry bird is very heartbroken.");
+System.out.println("java code.");
 
 	}
 
