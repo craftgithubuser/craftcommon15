@@ -7,7 +7,7 @@ public class Test15 {
 System.out.println("Greeting, From CraftKnowlage15");
 System.out.println("Greeting, From CraftKnowlage15");
 System.out.println("Greeting, From CraftKnowlage15");
-System.out.println("Greeting, From CraftKnowlage15");
+
 
 
 	}
