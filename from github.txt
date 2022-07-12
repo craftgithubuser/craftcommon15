@@ -1,2 +1,2 @@
 hey, hello class 
-from branch
+from branch greeting
