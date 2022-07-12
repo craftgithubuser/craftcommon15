@@ -6,7 +6,7 @@ public class hello {
 		// TODO Auto-generated method stub
         
 		System.out.println("Greeting, From craft common 15");
-		
+		System.out.println("Thank You!!!");
 		
 	}
 
