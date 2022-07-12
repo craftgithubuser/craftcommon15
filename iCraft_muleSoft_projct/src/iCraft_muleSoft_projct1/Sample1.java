@@ -7,7 +7,7 @@ public class Sample1 {
 //int y=7;
 //int z=2;
 //int r=-9;
-System.out.println("sum:"+ "7+2-9");
+System.out.println("The theory of hungry bird is very heartbroken.");
 
 	}
 
