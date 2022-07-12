@@ -5,3 +5,6 @@ TSEST ONE TWO THREE. this is a change of the first git. Test one two....
 Using the GITHUB commands are very important to exploit the system in a proper manner of git control vrsions for the managemant of codes.
 Hello guys! this is a riminder to to do your homework.
 https://github.com/craftgithubuser/craftcommon15.git
+https://github.com/craftgithubuser/craftcommon15.gitergegeg
+I don't know how much I am committed on this file.
+
