@@ -6,7 +6,6 @@ public class test1 {
 		// TODO Auto-generated method stub
 
 		System.out.println("this is my first exercise");
-		System.out.println("Hello");
 		System.out.println("this is my first eclipse exercise");
 		
 	}
