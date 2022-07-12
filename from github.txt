@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+hey, hello class
+=======
 hey, hello class 
 from branch
+>>>>>>> 15bd2fec71acb1b7687cd2ba2acfd28a15bb5001

@@ -1,2 +1,1 @@
-first
-Hello world
+hello world
