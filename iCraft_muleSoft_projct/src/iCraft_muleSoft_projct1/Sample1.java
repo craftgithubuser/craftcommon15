@@ -11,6 +11,9 @@ System.out.println("The theory of hungry bird is very heartbroken.");
 System.out.println("java code.");
 System.out.println("The theory of hungry bird is very heartbroken.");
 
+int y=4;
+int x=3;
+System.out.println("add int y + int x:");
 	}
 
 }
