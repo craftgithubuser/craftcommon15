@@ -6,10 +6,7 @@ public class Sample1 {
 		// TODO Auto-generated method stub
 
 System.out.println("The theory of hungry bird is very heartbroken.");
-System.out.println("java code.");
-System.out.println("The theory of hungry bird is very heartbroken.");
-System.out.println("javacode.");
-
+System.out.println("Hello world!");
 	}
 
 }
