@@ -1,1 +1,2 @@
 all about how to clone a document
+Hello guys! How are you doing the github commands?
