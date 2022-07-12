@@ -1,2 +1,6 @@
 hey evryone
+<<<<<<< HEAD
 helo
+=======
+hello
+>>>>>>> 55c4a0718d8b7c082fe19851f349f2d6bf5739de
