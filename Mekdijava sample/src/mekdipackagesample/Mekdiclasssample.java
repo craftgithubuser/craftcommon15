@@ -6,6 +6,7 @@ public class Mekdiclasssample {
 		// TODO Auto-generated method stub
 		  System.out.println("selam world");
 		  System.out.println("selam world");
+		  System.out.println("selam world");
 	}
 
 }
