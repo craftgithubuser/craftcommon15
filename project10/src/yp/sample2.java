@@ -8,8 +8,7 @@ public class sample2 {
 		
                                                                                                                         
 		System.out.println("Greeting, From craft common 15");
-		System.out.println("commn 15");
-		
+		System.out,println("thank u");
 		
 	}
 	
