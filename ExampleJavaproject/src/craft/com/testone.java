@@ -6,7 +6,7 @@ public class testone {
 		// TODO Auto-generated method stub
 
 System.out.print("Greetings,from the craft common15");	
-System .out.print("Thanks!!!");
+System .out.print("Thanks!!! ");
 	}
 	
 
