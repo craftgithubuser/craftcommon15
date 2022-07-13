@@ -7,7 +7,7 @@ public class Hellow_world {
 		System.out.println("greetings");
 		System.out.println("Wellcome");
 		System.out.println("MySql server is on progress");
-		Syste.out.Println("database installation");
+		System.out.println("database installation");
 		
 	}
 
