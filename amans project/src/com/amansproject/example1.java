@@ -7,6 +7,7 @@ public class example1 {
 
 		System.out.print("print something");
 		System.out.print("print something");
+		System.out.print("print something");		
 
 	}
 
