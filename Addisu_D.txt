@@ -1,6 +1,6 @@
 
 I am writing this letter to the craft common 15 batch to let you know that we have an andditional courses that should be delivered for this Autum. If you have anyone who are interested to join, tell them.
-
+Deve_21
 [
   {
     "id": 1,
@@ -26,3 +26,6 @@ I am writing this letter to the craft common 15 batch to let you know that we ha
     }
   },
 ]
+
+I want know how git commands are working such a kind of magic. Is thre anyone tell me the secrets?
+
