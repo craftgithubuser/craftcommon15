@@ -7,7 +7,7 @@ public class Test1 {
 		
 	System.out.println("This is a message from Elipse");
 	System.out.println("thankYou!");
-	System.out.println("from Tesfaye!");
+	
 	}
 
 }
