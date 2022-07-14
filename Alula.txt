@@ -1,4 +1,4 @@
 <Greeting>
+   <name>Alula</name>
    <class> Common27 </class>
-   <from> Alula </from>
-</Greeting>
+</Greeting> 
