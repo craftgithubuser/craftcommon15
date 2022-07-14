@@ -6,7 +6,7 @@ public class Example1 {
 		// TODO Auto-generated method stub
 		
 	System.out.println("This is a message from Eclipse for the creation of files to commit to GitHub");
-	System.out.println("thankYou!");
+	System.out.println("thankYou very much!");
 
 	}
 
