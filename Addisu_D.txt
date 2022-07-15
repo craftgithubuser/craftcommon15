@@ -1,12 +1,31 @@
 
 I am writing this letter to the craft common 15 batch to let you know that we have an andditional courses that should be delivered for this Autum. If you have anyone who are interested to join, tell them.
+Deve_21
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+]
 
-This is the beggining of the remote repository github.https://github.com/craftgithubuser/craftcommon15.git.
-TSEST ONE TWO THREE. this is a change of the first git.
-This is the beggining of the remote repository github.https://github.com/craftgithubuser/craftcommon15.git.
-TSEST ONE TWO THREE. this is a change of the first git. Test one two....
-Using the GITHUB commands are very important to exploit the system in a proper manner of git control vrsions for the managemant of codes.
-Hello guys! this is a riminder to to do your homework.
-.
-
+I want know how git commands are working such a kind of magic. Is thre anyone tell me the secrets?
 
