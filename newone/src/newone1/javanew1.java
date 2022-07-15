@@ -6,7 +6,7 @@ public class javanew1 {
 		// TODO Auto-generated method stub
 System.out.println("grertings from Azaria");
 	
-	System.out.println("i make some change");
+	System.out.println("i make some change and updated");
 	
 	
 	}
