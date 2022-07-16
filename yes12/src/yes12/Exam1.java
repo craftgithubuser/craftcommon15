@@ -1,10 +1,10 @@
-package java2;
+package yes12;
 
-public class test1 {
+public class Exam1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        System.out.println("goodnight");
+System.out.println("still i am triying");
 	}
 
 }
