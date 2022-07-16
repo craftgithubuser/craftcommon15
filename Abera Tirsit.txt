@@ -1,3 +1,2 @@
 Created new branch file
 git branch >your branch name to be Created.
-another git branch is created
