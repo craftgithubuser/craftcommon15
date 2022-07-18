@@ -2,7 +2,7 @@ package iCraft_muleSoft_projct1;
 
 import java.util.Scanner;
 
-public class PracticeTest {
+public class IfElseIfPractice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
