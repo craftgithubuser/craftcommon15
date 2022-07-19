@@ -43,4 +43,4 @@ Cust_Salary float not null
 
 --        - Cust_Salary               - Decimal           didn't accept null value
 
---        - uniquely identifies each record in a table by Cust_ID
+--        - uniquely identifies each record in a table by Cust_ID,
