@@ -1,0 +1,66 @@
+
+Short Answer
+
+
+1.       what is Data? 
+Data is a raw information or facts that uniquely identifies an object.  
+
+2.      what is Database(DB)?
+
+Database is an organized collection of data, that represent real world entities, generally stored and accessed electronically from a computer system. 
+
+3.      What is the Relation Database Management System (RDBMS)?
+RDBMS is a DBMS designed specifically for relational databases that refers to a database that stores data in a structured format, using rows and columns. It is relational because the values within each table are related to each other.
+
+4.      Define the importance of Relation Database Management System(RDBMS)?
+RDBMS is a software that allows us to execute queries on the data: select, update, insert, delete, alter individual values on a table. Also, it provides a visual representation of data. 
+
+5.      As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+Relational Database refers data stored in the form of tables that related to each other with some keys such as primary key (parent table) and foreign Key (child table). Whereas Non-Relational database -data stored in the form of documents in one place.
+
+6. 	List examples of Relation Database Management System(RDBMS)?
+Microsoft SQL Server, MySQL , Oracle Database, and IBM DB2. 
+
+6.    List examples of Non-Relational DB(Nosql)? 
+MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase
+
+
+7. Define and Describe is Structured Query Language(SQL)?
+
+SQL is a standardized language to interact with a database. We are using SQL to perform CRUD operations on a database. 
+
+8. List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+DDL -Data Definition Language- it is auto committed that means all the changes are permanently saved in the database.
+Create – to create database, table, view, 
+Alter – to change the existing values in a table, 
+Truncate – to delete the whole records from a table, no condition used, no rollback possible
+Drop – to drop a table, a database, 
+Rename – to change a table or database name
+
+DML – Data Manipulation Language – to manipulate data (values) stored in the table. 
+           Roll back is possible because the change made on a database is not permanent. Not   auto committed.
+     Insert – enter values in a table
+     Update – to update existing row, 
+     Delete – to delete a row by using a specific conditions
+     Select – to retrieve a records from a table  
+DCL – Data control language are commands to grant or revoke (Deny) access privilege (permission) for a database user.  
+
+TCL – Transactional control language 
+      It allows to manage the change made on a table by DML command. 
+      Commit, Rollback, save point, set transaction 
+ 
+10.      what is table in Database(DB)?
+ Table is a collection of data elements using a model of vertical columns and horizontal rows.  Table consists of rows and columns, and the unit where a column and row intersect is called Cell. 
+
+11.     what is column and Row(tuples) in table?
+ Column (field) is a vertical series of a table Spreadsheet from up to down and 
+ Row (record) is horizontal series of a table or Spreadsheet from left to right. 
+
+To Be Continued…
+
+
+
+
+
