@@ -1,0 +1,13 @@
+create database MyDB
+creat table customers{
+ customerID int not null auto_increment,
+ customerFirstName varchar not null,
+ customerLastName varchar not null,
+ customerNickName varchar,
+ customerAge int,
+ customerGender char not null,
+ customerCountry varchar not null,
+ customerSalary dec not null,
+ primary key (customerID)
+ 
+};
