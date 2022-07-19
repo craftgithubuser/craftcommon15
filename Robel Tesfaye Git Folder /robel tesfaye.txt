@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 This is Craft class 2022
 
+=======
+Robel Tesfaye 
+>>>>>>> parent of 8f30e16 (practicing how to revert)
