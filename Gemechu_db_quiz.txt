@@ -1,0 +1,52 @@
+Database
+ 
+Lab Guide
+ 
+ 
+Short Answer
+ 
+ 
+1.      what is Data?
+    Data is the facts about something.
+ 
+2.      what is Information?
+    Information is the collection of data.
+
+3.      what is Database(DB)?
+    It is an organized collection of structured information, or data, typically stored electronically in a computer system.
+ 
+4.      What is the Relation Database Management System(RDBMS)?
+    A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database.
+ 
+5.      Define the importance of Relation Database Management System(RDBMS)?
+ Relational database helps in maintaining the data integrity, data accuracy, reduces data redundancy to minimum or zero, data scalability, 
+ data flexibility and facilitates makes it easy to implement security methods.
+ 
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+ SQL databases are table-based on the other hand NoSQL databases are either key-value pairs, document-based, graph databases or wide-column stores. 
+ This makes relational SQL databases a better option for applications that require multi-row transactions such as an accounting system or for legacy systems
+ that were built for a relational structure. 
+ 
+7. List examples of Relation Database Management System(RDBMS)?
+   MySQL, MariaDB, POsgresDB, OracleDB, Micrisoft SQL Server
+  
+8.       List examples of Non-Relational DB(Nosql)?
+   MongoDB, DynamoDB
+ 
+9.       Define and Describe is Structured Query Language(SQL)?
+   SQL is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
+ 
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+   # DDL is used to create and modify the structure of objects in a database using predefined commands and a specific syntax.
+   # Data Manipulation Language represents a collection of programming languages explicitly used to make changes to the database, such as: CRUD operations 
+     to create, read, update and delete data. Using INSERT, SELECT, UPDATE, and DELETE commands.
+   # DCL is mainly used for revoke and to grant the user the required access to a database.
+   #TCL commands are basically used for managing and controlling the transactions in a database to maintain consistency.
+11.      what is table in Database(DB)?
+   Tables are database objects that contain all the data in a database. In tables, data is logically organized in a row-and-column format similar to a spreadsheet.
+ 
+12.     what is column and Row(tuples) in table?
+   Rows are a group of cells arranged horizontally to provide uniformity. Columns are a group of cells aligned vertically, and they run from top to bottom.
+ 
+ 
+To Be Continued…
