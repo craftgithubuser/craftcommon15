@@ -1,0 +1,67 @@
+Database
+ 
+Lab Guide
+ 
+ 
+Short Answer
+ 
+ 
+1.      what is Data?
+        Data is a collection of facts, such as numbers, words, measurements, observations or just descriptions of things.
+ 
+ 
+2.      what is Information?
+        facts provided or learned about something or someone.
+        it is a collection of data.
+ 
+3.      what is Database(DB)?
+      
+      A database (DB), in the most general sense, is an organized collection of data.
+      More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated.
+     In other words, a database is used by an organization as a method of storing
+ 
+4.      What is the Relation Database Management System(RDBMS)?
+       Relational Database Management System (RDMS) Relational database design (RDD) models’ information and data into a set of tables with rows and columns. 
+       Each row of a relation/table represents a record, and each column represents an attribute of data.
+      The Structured Query Language (SQL) is used to manipulate relational databases
+ 
+ 
+5.      Define the importance of Relation Database Management System(RDBMS)?
+       A relational database is organized into tables that are used to hold information about the objects to be represented in the database. 
+ 
+ 
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+   Non-relational databases The non-relational database, or NoSQL database, stores data. However, unlike the relational database, there are no tables, rows, 
+   primary keys or foreign keys. Instead, the non-relational database uses a storage model optimized for specific requirements of the type of data being stored.
+ 
+ 
+7. List examples of Relation Database Management System(RDBMS)?
+   Oracle; MySQL; Microsoft SQL server; PostgreSQL; DB2; Microsoft access.
+ 
+ 
+8.       List examples of Non-Relational DB(Nosql)?
+        mongodb,ibm coud database
+ 
+ 
+9.       Define and Describe is Structured Query Language(SQL)?
+       Structured Query Language (SQL) is a programming language that is typically used in relational database or data stream management systems.
+ 
+ 
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+         DDL: Data Definition Language actually consists of the SQL commands that can be used to define the database schema.
+         DDL: commands, create, alter, drop, truncate, rename, comment.
+         DQL statements are used for performing queries on the data within schema objects. DQL command:select.
+          
+ 
+11.      what is table in Database(DB)?
+         Tables are database objects that contain all the data in a database.
+ 
+ 
+12.     what is column and Row(tuples) in table?
+        Rows
+
+       Each row in a database table represents one instance of the type of object described in that table. A row is also called a record.
+
+      Columns
+
+      The columns in a table are the set of facts that we keep track of about that type of object. A column is also called an attribute.
