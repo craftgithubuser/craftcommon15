@@ -1,2 +1,3 @@
 # craftcommon15
-Hello , thanks 
+Editing github reminder.
+
