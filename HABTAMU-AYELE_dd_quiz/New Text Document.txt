@@ -1,1 +1,100 @@
 1.what is Data?
+
+Data is a collection of a distinct small unit of information.It can be used in a variety of forms like text, numbers, media, bytes, etc. it can be stored in pieces of paper or electronic memory, etc
+2. what is Information?
+
+Information is a sequence of symbols that carries a message, a set of items in which meaning is conveyed, or a specified arrangement of complex structures that convey a message to a receiver. Information does not exist on its own. It is contained within something and is coded. Information can be coded in different forms, i.e., a written sentence on a piece of paper or on a computer disk.
+
+3.what is Database(DB)?
+
+A database is an organized collection of data, so that it can be easily accessed and managed.
+You can organize data into tables, rows, columns, and index it to make it easier to find relevant information.
+ 
+4.What is the Relation Database Management System(RDBMS)?
+The word RDBMS is termed as 'Relational Database Management System.' It is represented as a table that contains rows and column.
+A relational database contains the following components:
+
+Table
+Record/ Tuple
+Field/Column name /Attribute
+Instance
+Schema
+Keys
+
+
+5.Define the importance of Relation Database Management System(RDBMS)?
+
+Complexity of setup: It might be beneficial to pick an RDBMS that is easy to set up so that you can begin using it as soon as possible.
+
+Data model: Knowing which model can best suit your data can be very important, as an RDBMS is usually ideal for structured data.
+
+Data security: Security can be crucial in data management, so it's essential to choose an RDBMS that offers security measures that can meet your specific needs and keep your data safe.
+
+Accuracy: Depending on the data you want to store, it might be beneficial to pick an RDBMS that prioritizes accuracy or allows you to quickly search for errors within stored data sets.
+
+Reliability: As an RBDSM typically supports atomicity, consistency, durability and isolation, you can verify that the one you're choosing does in order to evaluate its reliability.
+
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+	
+	Relational Database(SQL) AND Non-Relational 				Non-Relational DB(NO sql)	
+	
+	=>SQL is a relational database management system.--------------	=>No-SQL is a non-relational or distributed database management system.
+	=>The query language used in this database system 
+	  is a structured query language.-----------------------------------=>The query language used in the No-SQL database systems is a non-declarative query language.
+	=>schema of SQL databases is predefined, fixed, and static.---------=>The schema of No-SQL databases is a dynamic schema for unstructured data.
+	=> The database type of SQL is in the form of tables, i.e.----------=>The database type of No-SQL is in the form of documents, key-value, and graphs.
+	, in the form of rows and columns.
+	=>Complex queries are easily managed in the SQL database.-----------=> NoSQL databases cannot handle complex queries.
+	=>This database is not the best choice for storing hierarchical data.=>While No-SQL database is a perfect option for storing hierarchical data.
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+
+	Oracle
+	MySQL
+	Microsoft SQL server
+	PostgreSQL
+	DB2
+	Microsoft access
+	Sq Lite
+	Sybase
+	Tera data
+	Fire bird
+8.  List examples of Non-Relational DB(Nosql)? 
+
+1.Key-Value Stores example Redis
+2.Document Stores example MongoDB ,Couchbase ,RavenDB
+3.Column-Oriented example Apache Cassandra,Hadoop HBase,HyperTable
+
+9. Define and Describe is Structured Query Language(SQL)?
+SQL (Structured Query Language) is used to perform operations on the records stored in the database, such as updating records, inserting records,
+deleting records, creating and modifying database tables, views, etc.
+
+10.List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+	1.DDL (Data Definition Language):
+	Data Definition Language actually consists of the SQL commands that can be used to define the database schema. 
+	It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
+	DDL is a set of SQL commands used to create, modify, and delete database structures but not data.
+	These commands are normally not used by a general user, who should be accessing the database via an application.
+	CREATE=> command is used to create a table.
+	DROP command=> is used to drop a table from the database.
+	ALTER command=> is used to add, change, or remove columns and/or fields in the table
+	TRUNCATE =>	is used to delete data from table
+	RENAME => to rename table 
+	2.DML commands are used for manipulating the data stored in the table and not the table itself
+	SELECT=>Used to query or fetch selected fields or columns from a database table
+	INSERT=>Used to insert new data records or rows in the database table
+	UPDATE=>Used to set the value of a field or column for a particular record to a new value
+	DELETE=>Used to remove one or more rows from the database table
+	3.DCL: Data Control Language Data control language are the commands to grant and take back authority from any database user. 
+	It allows you to control access to the database. Example – Grant or Revoke access permissions
+	4.TCL: Transaction Control Language Transaction Control Language(TCL) commands are used to manage transactions in the database. 
+	These are used to manage the changes made to the data in a table by DML statements. It also allows statements to be grouped together into logical transactions.
+
+11.what is table in Database(DB)?
+
+Database is a systematic collection related of Data, that  represent some real world entities.
+
+12.what is column and Row(tuples) in table?
+The information in a database can be thought of as a spreadsheet, with columns (known as fields or attributes)
+ representing different categories of information, and tuples (rows) representing all the information from each field associated with a single record.
