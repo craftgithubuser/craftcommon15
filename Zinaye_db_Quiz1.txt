@@ -1,0 +1,44 @@
+Database 
+
+Lab Guide
+
+
+Short Answer
+
+
+1. what is Data? Data is piece of information or fact that may be text number video or image.
+
+2. what is Information? Information is the collection of data.
+
+3.      what is Database(DB)? An organized collection of structured information or data that stored electronically in a computer system.
+
+4.      What is the Relation Database Management System(RDBMS)? The software used to store, manage, query and retrive data stored in a relational data base is called (RDBMS)
+
+5.      Define the importance of Relation Database Management System(RDBMS)?
+- High security		-Data Accuracy
+- Normalization		- Easy Access to data
+- Flexability			- Data integrity
+- Simple model
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+SQL Relational Database Management System
+-	Fixed or static or predefined Schema
+-	These DB are not suited for hierarchical data storage.
+No SQL – Non relational distributed database system.
+-	They have dynamic schema.
+-	Best suited for hierarchical data storage.
+7. 	List examples of Relation Database Management System(RDBMS)?
+MySQL, Oracle, IBM DB2 and Microsoft SQL Server data base.
+8.       List examples of Non-Relational DB(Nosql)? 
+- MongoDB.
+9.       Define and Describe is Structured Query Language(SQL)?
+Data Manipulation Languge statements including the create and drop statements for tables and indexes.
+- Statements that control data consistency and grant and revoke authority.
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+DDL- Data Definition Languge used to create and modify the structure of objects in a data base using predefined commands and a specific syntax. (Auto commit)
+DML- Data Manipulation Languge– Subset of Operations used to insert, delete and update data in a database. (not auto committed)
+DCL – Data Control Languge– used to control access to data stored in a database (authorization)
+TCL – Transaction Control Languge Used to control transactional processing in a database.
+11.      what is table in Database(DB)?
+Tables are database objects that contain all the data in a database. In contain all the data in a database. In tables data is logically organized in a row and column format.
+12.     what is column and Row(tuples) in table?
+Column arrange data vertically from top to bottom, while a row arranges data horizontally.
