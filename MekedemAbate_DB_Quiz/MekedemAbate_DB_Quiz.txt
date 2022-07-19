@@ -1,0 +1,18 @@
+
+ 1. Data is facts that can be recorded.
+ 2. Information is processed data.
+ 3. Database is collection of related data.
+ 4. RDBMS is a type of DBMS that stores data in a row-based table structure.
+ 5. RDBMS allow CRUD operations by using SQL.
+ 6. Relational DB is structured, meaning the data is organized in tables. A  non-relational DB is         
+    document oriented, meaning all information gets stored in more of a laundry list order.
+ 7. Examples of RDBMS include MySQL, Oracle, IBM DB2, PostgreSQL,  Microsoft SQL Server DB.
+ 8. Examples of Non-Rational include MongoDB, Appache Cassandra, Redis, Couchbase, 
+    Apache HBase.
+ 9. SQL is a programming language used to communicate with RDB.
+10. DDL is used to create and modify the objects in a DB.
+    DML is used for adding, deleting, and modifying data in a DB.
+    DCL is used to control access to data stored in a DB.
+    TCL is used to manage the changes made to the data in a table by DML.
+11. A table is a collection of related data held in a table format within a DB.
+12. Each row represents a unique record, and each column represents a field in the record.
