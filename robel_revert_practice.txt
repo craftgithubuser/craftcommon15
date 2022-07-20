@@ -1,2 +1,6 @@
-Name
-Robel 
+Hello, 
+
+My name is Robel. I  am currently taking a CRAFT class on QA. 
+
+Thank you 
+
