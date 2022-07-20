@@ -1,4 +1,4 @@
-Quiz 1
+Quiz one
 
 1. what is Data?
 ANS; 
