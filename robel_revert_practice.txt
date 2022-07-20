@@ -2,5 +2,7 @@ Hello,
 
 My name is Robel. I  am currently taking a CRAFT class on QA. 
 
+Before I  started this class I  did not have any knowledge on Git/ Git hub. 
+
 Thank you 
 
