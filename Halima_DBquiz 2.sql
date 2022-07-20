@@ -1,5 +1,4 @@
 create schema MyDB;
-create schema MyDB;
 
 create table MyDB.Customers(
 Cust_ID int auto_increment not null primary key,
@@ -11,3 +10,5 @@ Cust_Gender varchar(2) not null,
 Cust_Country varchar(15) not null,
 Cust_Salary decimal not null
 )
+
+
