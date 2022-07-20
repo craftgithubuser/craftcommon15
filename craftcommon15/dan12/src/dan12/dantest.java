@@ -1,0 +1,10 @@
+package dan12;
+
+public class dantest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("go home");
+	}
+
+}
