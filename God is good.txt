@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 HI, greetings
+=======
+Hi
+hey
+>>>>>>> cdf4bc66a4829bff651172cbf4b7c23b20eb696f
