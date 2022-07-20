@@ -1,4 +1,4 @@
-Quiz one
+Quiz 1
 
 1. what is Data?
 ANS; 
@@ -50,7 +50,7 @@ ANS;
 9. Define and Describe Whatis Structured Query Language(SQL)?(SQL)?
 ANS; 
     -Is a programming language designed to get information out of and put it into a relational database.
-    -Is a standard Database language which is used to create, maintain and retrieve the relational database
+    -Is a standard Database language which is used to create, maintain and retrieve the relational database.
 
 10. List and Describe each of the different subsets of SQL(Mean DDL, DML,
 DCL, TCL)?
