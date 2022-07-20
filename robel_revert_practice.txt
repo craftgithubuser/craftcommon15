@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Hello, 
 
 My name is Robel. I  am currently taking a CRAFT class on QA. 
@@ -10,7 +9,3 @@ I hope the more I  practice the better I  get at it.
 Regards,
 Robel 
 
-=======
-Name
-Robel 
->>>>>>> parent of b24c76c (practicerun1)
