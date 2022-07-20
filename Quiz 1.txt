@@ -1,0 +1,52 @@
+Short Answer
+
+
+1.       what is Data?
+
+                Data is information processed or stored by a computer. This information may be in the form of text documents, images, audio clips, software programs, or other types of data
+
+
+2.       what is Information?
+            
+                Information is stimuli that has meaning in some context for its receiver.
+
+3.      what is Database (DB)?
+
+                A database is an organized collection of structured information, or data, typically stored electronically in a computer system
+   
+4.      What is the Relation Database Management System (RDBMS)?
+	
+	The software used to store, manage, query, and retrieve data stored in a relational database is called a relational database management system (RDBMS)
+
+5.      Define the importance of Relation Database Management System (RDBMS)?
+	
+	The RDBMS provides an interface between users and applications and the database, as well as administrative functions for managing data storage, access, and performance.
+
+6.     As we all know that there are Two types of Databases. Relational Database (SQL) AND Non-Relational DB (NO sql). what is the difference between them?
+	
+	RDBMS uses tabular structures to store data. In table headers are the column names and the rows contains corresponding values. NoSQL uses to store data in structured, semi-structured and unstructured forms
+
+7. 	List examples of Relation Database Management System (RDBMS)?
+
+	 Oracle, SQL Server, MySQL, and DB2.
+8.       List examples of Non-Relational DB(NoSQL)? 
+	
+	MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase
+
+9.       Define and Describe is Structured Query Language (SQL)?
+	
+	SQL is standardized programming language that is used to manage relational databases and perform various operations on the data in them.
+
+10.       List and Describe each of the different subsets of SQL (Mean DDL, DML, DCL, TCL)?
+		DDL or Data Definition Language consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
+		DML (Data Manipulation Language) is the SQL commands that deals with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statement.
+                             DCL (Data Control Language) includes commands such as GRANT and REVOKE which mainly deal with the rights, permissions, and other controls of the database system.
+		TCL (Transaction Control Language commands) are used to manage transactions in the database. These are used to manage the changes made by DML-statements. 
+
+11.      what is table in Database (DB)?
+	  
+	A table is a collection of related data held in a table format within a database. It consists of columns and rows.
+
+12.     what is column and Row(tuples) in table?
+	
+              A tuple in a table represents a set of related data. A column is a collection of cells aligned vertically in a table. A field is an element in which one piece of information is stored, such as the received field
