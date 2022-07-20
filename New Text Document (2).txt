@@ -1,0 +1,19 @@
+create schema MyDbcustomers
+use mydb
+
+customerscreate table customers(
+Cust_Id int (200) primary key not nUll,
+Cust_FirstName  varchar (200) not nUll,
+Cust_LastName   varchar (200) NOT NULL,
+Cust_nickName  varchar (200) ,
+Cust_Age        varchar (200),
+Cust_Gender     varchar (200) not null,
+Cust_country    varchar (200) not null,
+Cust_salary     int     (200) not null
+
+
+
+
+
+
+);
