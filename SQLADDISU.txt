@@ -9,3 +9,33 @@ Cust_Gender char(1) not null,
 Cust_Country varchar(50) not null,
 Cust_Salary float not null
 );
+Cust_table database
+-- use mydb;
+-- alter table customers
+-- drop column Datatype;
+-- alter table customers
+-- drop column Cust_NickName;
+-- insert into customers(Cust_ID, Cust_FirstName, Cust_LastName, Cust_Age, Cust_Gender, Cust_Country, Cust_Salary)
+-- values(111, 'Nick', 'Jones', 23,'M', 'USA', 20000000),
+--      (222, 'Anthony', 'Maritial', 45, 'M', 'France', 10000000),
+--      (333, 'Ross', 'Geller', 12, 'm', 'Uzbakistan', 3600000),
+--      (444, 'Chandler', 'Bing', 50, 'M', 'Unknown', 3400000),
+--      (555, 'Rachel', 'Green', 32, 'F', 'Kazakhstan', 400000),
+--      (666, 'Nick', 'Jones', 25, 'M', 'USA', 20000000),
+--      ( 777, 'Poul', 'Pogba', 42, 'M', 'France', 20000000),
+--      (888, 'Joey', 'Tribiani', 21, 'M', 'Ethiopia', 70000000);
+-- Update,
+-- update Customers
+--  set Cust_Country= 'Ethiopia'
+-- where Cust_ID= 444 and 555;
+-- set country ='Ethiopia'
+-- where Cust_ID =333, 444, 555
+
+-- 	Cust_ID=333,444,555 
+--     Country to Ethiopian
+
+--  Delete 
+-- delete from customers
+-- where Cust_ID = 666;
+--     cust_Name=nick jones 
+--    WhichCust_ID is 666
