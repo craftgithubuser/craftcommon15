@@ -1,0 +1,13 @@
+create schema MYDB;
+
+
+create table MYDB.customer(
+Cus_ID int primary key not null,
+cust_firstName varchar(50) not null,
+Cust_LastName Varchar (50) not null,
+cust_NickName varchar (40) not null,
+Cust_Age int,
+Cust_Gender varchar (6) not null,
+cust_country varchar (50) not null,
+cust_salary Decimal not null
+);
