@@ -1,0 +1,11 @@
+ create schema mydb;
+create table customers(
+Cust_ID int not null,
+Cust_FirstName varchar(20) not null,
+Cust_LastName varchar(38) not null,
+Cust_NickName varchar(23) not null,
+Cust_Age int not null,
+Cust_Gender char(1) not null,
+Cust_Country varchar(50) not null,
+Cust_Salary float not null
+);
