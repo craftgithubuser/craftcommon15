@@ -1,0 +1,76 @@
+Quiz 1
+
+1. what is Data?
+ANS; 
+     - Data can be texts or numbers written on papers, or it can be bytes and bits inside the memory of electronic devices.
+     - Facts and statistics collected together for reference or analysis
+     - Data is a single unit of information or we can say information is a collection of data.
+
+2. what is Information?
+ANS; 
+    - A sequence of symbols that carries a message.
+    -Is processed, organized and structured data. It provides context for data and enables decision making processes.
+
+3. what is Database(DB)?
+ANS;
+   - A structured set of data held in a computer, especially one that is accessible in various ways.
+   - A database is an organized collection of structured information, or data, typically stored electronically in a computer system
+    
+4. What is the Relation Database Management System(RDBMS)?
+ANS:
+    - Enable users to aggregate and analyze the data to find predefined data relationships across multiple databases.
+    - Is a type of DBMS that stores data in the form of relations or tables. 
+      In a relational database, data is organized into rows and columns, with each row representing a record and each column representing a field.
+
+5. Define the importance of Relation Database Management System(RDBMS)?
+ANS; - Data consistency across applications and database copies
+     - Increased usability without complex structure or queries
+     - Data that's enterprise accessible and AI ready
+
+6. As we all know that there are Two types of Database. Relational
+Database(SQL) AND Non-Relational DB(NO sql). what is the difference between
+them.
+ANS:
+   - A relational database is structured, whereas NoSQL is semi-structured or unstructured. In the relational database (SQL), 
+     it consists of tables (fields and records), whereas non-relational database data is stored in form of graphs, documents (XML, JSON).
+
+7. List examples of Relation Database Management System(RDBMS)?
+ANS;
+  - Oracle
+  - MySQL
+  - Microsoft SQL server
+  - PostgreSQL
+  - DB2
+  - Microsoft access
+
+8. List examples of Non-Relational DB(Nosql)?
+ ANS;
+     - MongoDB, Cassandra, DocumentDB, and Cassandra.
+
+9. Define and Describe Whatis Structured Query Language(SQL)?(SQL)?
+ANS; 
+    -Is a programming language designed to get information out of and put it into a relational database.
+    -Is a standard Database language which is used to create, maintain and retrieve the relational database
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML,
+DCL, TCL)?
+ANS:
+    There are three main subsets of the SQL language:.
+    1,Data Definition Language (DDL).Data Control Language (DCL).
+    2,Data Manipulation Language (DML)
+    3,Data Control Language (DCL).
+    4,Transaction Control Language(TCL)
+  - DML is used to retrieve and manipulate data in the table such as to insert, delete, and update data. 
+  - DDL is used to define data structures such as to create, alter, or drop tables
+  - DCL is used to control access to data in a database such as to grant or revokespecified users' rights to perform specified tasks.
+  - TCL SQL Statements that allows you to control and manage transactions to maintain the integrity of data within SQL statements.
+    
+11. what is table in Database(DB)?
+ANS; 
+    -  Tables are database objects that contain all the data in a database. In tables, data is logically organized in a row-and-column format similar to a spreadsheet.
+
+12. what is column and Row(tuples) in table?
+ANS; 
+- A row is a series of data put out horizontally in a table or spreadsheet while a column is a vertical series of cells in a chart, table, or spreadsheet.
+- Rows go across left to right. On the other hand, Columns are arranged from up to down.
+
