@@ -1,0 +1,67 @@
+Answer
+ 
+
+1.      What is Data?
+
+Data is a raw fact that can be recorded. It may be a text, number, Videos, images.
+It is unprocessed and it doesn't have meaning by it self. 
+
+2.      What is Information?
+
+Information is processed and meaning full data. In another word it is stimuli that has meaning in some context for its receiver.
+
+3.      What is Database(DB)?
+
+Database is an organised collection of structured information, or data, typically stored electronically in a computer system.
+
+ 
+4.      What is the Relation Database Management System(RDBMS)?
+
+ RDBMS is the software used to store, manage, query, and retrieve data stored in a relational database.
+ 
+5.      Define the importance of Relational Database Management System(RDBMS)?
+
+Relational databases are used to organise data and identify relationships between key data points. Which helps the owner or the organization to make its decisions more efficiently and minimize costs.
+
+6.     As we all know that there are Two types of Databases. Relational Database(SQL) AND Non-Relational DB(NO sql). What is the difference between them?
+
+ Relational databases are table-based. NoSQL databases can be document based, graph databases, key-value pairs, or wide-column stores. Relational databases were built during a time that data was mostly structured and clearly defined by their relationships.
+ 
+7. List examples of Relational Database Management System(RDBMS)?
+
+-Microsoft SQL Server,
+-Oracle Database, 
+-MySQL 
+-IBM DB2.
+
+
+ 
+ 
+8.       List examples of Non-Relational DB(Nosql)?
+ 
+-MongoDB, 
+-Apache Cassandra, 
+-Redis, 
+-Couchbase
+-Apache HBase.
+ 
+9.       Define and Describe Structured Query Language(SQL)?
+
+ SQL stands for Structured Query Language and it let us to access and manipulate databases.
+
+ 
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+DDL:  Data Definition Language. It allows you to perform various operations  on the DataBase.
+DML: Data Manipulation Language. The DMLcommands are used for manipulating the data stored in the table and not the table itself.
+DCL: Data Control Language. The DCL are the commands to grant and take back authority from any database user.
+TCL: Transaction Control Language. Transaction Control Language(TCL) commands are used to manage transactions in the database. These are used to manage the changes made to the data in a table by DML statements. It also allows statements to be grouped together into logical transactions.
+ 
+11.      what is table in Database(DB)?
+
+Tables are database objects that contain all the data in a database
+ 
+12.     what is column and Row(tuples) in table?
+
+In the context of relational databases, a column is a set of data values, all of a single type, in a table.
+And a row is a data record within a table.
