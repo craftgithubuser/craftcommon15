@@ -1,0 +1,43 @@
+create schema MyDb;
+use mydb;
+
+create table customers(
+Cust_Id int (200) primary key not nUll,
+Cust_FirstName  varchar (200) not nUll,
+Cust_LastName   varchar (200) NOT NULL,
+Cust_nickName  varchar (200) ,
+Cust_Age        varchar (200),
+Cust_Gender     varchar (200) not null,
+Cust_country    varchar (200) not null,
+Cust_salary     int     (200) not null
+
+);
+
+alter table customers
+add column bonus int (200) not null;
+ 
+ alter table customers
+ modify column Cust_Age int  ;
+ 
+ alter table customers
+ drop column Cust_nickName;
+ 
+  alter table customers
+ modify column Cust_Gender char(20) not null;
+  
+  rename table customers to customer;
+  
+  drop table customer;
+  
+  drop database mydb;
+  
+insert into customers (Cust_Id,Cust_FirstName,Cust_LastName,Cust_Gender,Cust_country,Cust_salary)
+                value  (111,'nick','jones','m','usa',2000000),
+                       (222,'antony','martial','m','france',1000000),
+                       (333,'ross','geller','f','uzbekistan',36000000),
+                       (444,'chandler','bing','m','unkown',34000000),
+                       ( 555,'rachel','green','f','kazakhstan',400000),
+                       (666,'nick','jones','m','usa',2000000),
+                       (777,'poul','pogba','m','france',2000000),
+                       (888,'josy','tribbiani','m','ethiopia',7000000);
+                       
