@@ -1,2 +1,0 @@
-This to make sure that I'm working the right way or not on git.
-GitHub
