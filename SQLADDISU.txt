@@ -39,3 +39,6 @@ Cust_table database
 -- where Cust_ID = 666;
 --     cust_Name=nick jones 
 --    WhichCust_ID is 666
+Update customers
+set  Cust_Age =24
+where Cust_ID =111;
