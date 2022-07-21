@@ -1,0 +1,135 @@
+1.     what is Data?
+   Data base is systematic collactions of data, that represent some real world entites.
+
+ 
+2.      what is Information?
+       
+  Information is stimuli that has meaning in some context for its receiver. 
+ 
+ 
+3.      what is Database(DB)?
+ 
+  A database (DB), in the most general sense, is an organized collection of data. More specifically, 
+  a database is an electronic system that allows data to be easily accessed, manipulated and updated
+
+4.      What is the Relation Database Management System(RDBMS)?
+ The software used to store, manage, query, and retrieve data stored in a relational database is called 
+a relational database management system (RDBMS).
+ The RDBMS provides an interface between users and applications and the database, 
+as well as administrative functions for managing data storage, access, and performance. 
+
+ 
+5.      Define the importance of Relation Database Management System(RDBMS)?
+ The RDBMS provides an interface between users and applications and the database, 
+as well as administrative functions for managing data storage, access, and performance. 
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql).
+       what is the difference between them.
+ 
+ SQL is the programming language used to interface with relational databases. 
+(Relational databases model data as records in rows and tables with logical links between them).
+ NoSQL is a class of DBMs that are non-relational and generally do not use SQL.
+
+
+7. List examples of Relation Database Management System(RDBMS)?
+
+ Some examples of specific systems that use RDBMS include IBM, Oracle, MySQL, Microsoft SQLServer and PostgreSQL.
+ 
+ 
+8.       List examples of Non-Relational DB(Nosql)?
+
+NoSQL or non-relational databases examples:MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+ 
+ 
+9.       Define and Describe is Structured Query Language(SQL)?
+ 
+ Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
+
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+ 
+DDl stads for Data definition language
+ It is a computer language used to create and modify the structure of database objects in a database.
+DML stands for Data Manipulation Language
+DCL stands for data control language
+TCL stands for Tool Command Language.
+
+
+11.      what is table in Database(DB)?
+
+ A table is a collection of related data held in a table format within a database. 
+ It consists of columns and rows. In relational databases, and flat file
+ 
+ 
+12.     what is column and Row(tuples) in table?
+A relation, also known as a table or file, is a subset of the Cartesian product of a list of domains characterized by a name. 
+And within a table, each row represents a group of related data values. A row, or record, is also known as a tuple.
+ The columns in a table is a field and is also referred to as an attribute.
+ 1.     what is Data?
+   Data base is systematic collactions of data, that represent some real world entites.
+
+ 
+2.      what is Information?
+       
+  Information is stimuli that has meaning in some context for its receiver. 
+ 
+ 
+3.      what is Database(DB)?
+ 
+  A database (DB), in the most general sense, is an organized collection of data. More specifically, 
+  a database is an electronic system that allows data to be easily accessed, manipulated and updated
+
+4.      What is the Relation Database Management System(RDBMS)?
+ The software used to store, manage, query, and retrieve data stored in a relational database is called 
+a relational database management system (RDBMS).
+ The RDBMS provides an interface between users and applications and the database, 
+as well as administrative functions for managing data storage, access, and performance. 
+
+ 
+5.      Define the importance of Relation Database Management System(RDBMS)?
+ The RDBMS provides an interface between users and applications and the database, 
+as well as administrative functions for managing data storage, access, and performance. 
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql).
+       what is the difference between them.
+ 
+ SQL is the programming language used to interface with relational databases. 
+(Relational databases model data as records in rows and tables with logical links between them).
+ NoSQL is a class of DBMs that are non-relational and generally do not use SQL.
+
+
+7. List examples of Relation Database Management System(RDBMS)?
+
+ Some examples of specific systems that use RDBMS include IBM, Oracle, MySQL, Microsoft SQLServer and PostgreSQL.
+ 
+ 
+8.       List examples of Non-Relational DB(Nosql)?
+
+NoSQL or non-relational databases examples:MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+ 
+ 
+9.       Define and Describe is Structured Query Language(SQL)?
+ 
+ Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
+
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+ 
+DDl stads for Data definition language
+ It is a computer language used to create and modify the structure of database objects in a database.
+DML stands for Data Manipulation Language
+DCL stands for data control language
+TCL stands for Tool Command Language.
+
+
+11.      what is table in Database(DB)?
+
+ A table is a collection of related data held in a table format within a database. 
+ It consists of columns and rows. In relational databases, and flat file
+ 
+ 
+12.     what is column and Row(tuples) in table?
+A relation, also known as a table or file, is a subset of the Cartesian product of a list of domains characterized by a name. 
+And within a table, each row represents a group of related data values. A row, or record, is also known as a tuple.
+ The columns in a table is a field and is also referred to as an attribute.
+ 
