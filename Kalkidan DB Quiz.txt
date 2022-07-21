@@ -1,0 +1,32 @@
+1. What is Data?
+ - Data is information.
+2. What is Information?
+ - is a facts provided about something or someone. 
+3. What is Database(DB)?
+ - An organized collection of data stored and accessed electronically.
+4. What is the relation Database Manegiment System(RDBMS)
+ - It's a Database that stores information in the form of table.
+5. Define the importance of Relation Database Manegiment System (RDBMS)
+ - they can be easly queried,allow for the use of stored procedures to manipulate data,
+   provide consistance Database desighn,can manage large amount of data.
+6. As we all Know that there are two types of Database.Relational Database(SQL)
+   and Non-Relational DB(NO sql).What is the difference between them.
+ - Sql  :-relational,Vertical scalable,DB are table base,
+   Nosql:-non relational,horizontal scalable,DB are document(wide-colomn stores),
+7. List example of Relation Database Manegiment System?
+-> Sql:- Mysql, Microsoft, Oracle, Postgre....
+8. List example of Non-Relation Database(Nosql)?
+9. Define and Describe the structured Query Language(SQL)
+   -  Stractured Query Language(SQL) 
+   -  It's a programming language that used to manage relational database and 
+      perform various operations on the data in them.
+10. List and Describe each the different subsets of SQL(Mean,DDL,DML,DCL,TCL)
+ - DDL: All DDL commands are auto commited.It saves all the change permenently in the database.
+ - DML: Its a commang used for manipulating the data stored. Its not auto commited.
+ - DCL: commands to Grant & take back(revoke).Its allow you control access.
+ - TCL: It's used to manage transaction.
+11. What is table in Database(DB)?
+ - It's objects that contain all the data in a database.
+12. What is colomn and Row(tuples)in table?
+ - colomns define the data in a table, while rows populate data into the table.
+
