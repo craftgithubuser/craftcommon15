@@ -1,0 +1,68 @@
+1. select *
+from infostudents;
+
+2, select *
+  from infostudents
+  where country = 'ethiopia';
+
+3. select *
+from infostudents;
+where salary > 5000000;
+
+4. select  Cust_FirstName,Cust_LastName,Cust_country
+from customers 
+where Cust_Gender= 'm';
+
+5.select distinect country
+ from infostudents;
+6.
+select Cust_FirstName,Cust_LastName,Cust_country
+from customers
+where Cust_Gender = 'f'
+order by Cust_FirstName,Cust_LastName,Cust_country desc;
+
+7.select  Cust_Gender = 'F'
+from customers
+where Cust_salary < 2000000 OR Cust_country = 'ethiopia';
+
+8. select*
+ from customers
+ where Cust_country = 'ethiopia' or Cust_country = 'uzbekistan';
+
+9.select min (cust_salary)
+  from customers;
+
+10.select max (cust_salary)
+  from infostudents;
+
+11.select count (cust_Id)
+  from customers;
+
+12.select  avg (cust_salary)
+  from infostudents;
+
+13.select sum (cust_salary)
+  from customers;
+
+14.select *
+   from customer
+   weher cust_salary between 2000000 and 8000000;
+
+15.select*
+   from customers
+   where cust_firstname like '%S';
+
+16.5.select*
+   from customers
+   where cust_firstname like '_S%e';
+17. select*
+   from customers
+   where cust_firstname like '_%e%' and  Cust_LastName like '%e';
+18.  select*
+   from customers
+   where Cust_country in ('usa','ethiopia','france');
+
+
+
+  
+  
