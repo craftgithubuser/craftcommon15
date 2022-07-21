@@ -1,57 +1,62 @@
 Short Answer
 
 
-1.       What is Data?
-Is a facts that can be recorded. It may be a text, number, Videos, images.
+1. What is Data?
+     Is a facts that can be recorded. It may be a text, number, Videos, images.
 
 
 2. What is Information?
-It is a processed data. 
+    It is a processed data. 
 
-3.      What is Database(DB)?
-	Database is a systematic collection related of Data, that  represent some real world entities.
+3. What is Database(DB)?
+    Database is a systematic collection related of Data, that  represent some real world entities.
 
  
-4.      What is the Relation Database Management System(RDBMS)?
-•	Is a software application that interacts with the user, applications and the database itself to capture and analyze data
+4. What is the Relation Database Management System(RDBMS)?
+	Is a software application that interacts with the user, applications and the database itself to capture and analyze data
 
-5.      Define the importance of Relation Database Management System(RDBMS)?
-	Is data 
-
-
-6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
-	Relational Database (SQL) is structured and the date is organized in table format. 
-	Not Relational DB No (SQL) is document oriented. 
-
-
-7. 	List examples of Relation Database Management System(RDBMS)?
-MySQL, SQL, Oracle, postgre SQL, 
-
-8.       List examples of Non-Relational DB(Nosql)? 
-MangoDB, RDES, APACI, 
-
-9.       Define and Describe is Structured Query Language(SQL)?
-Mainly Used to perform CRUD(Create,Read,Update,and Delete) Operations Mean that By using SQL, you can add, update or delete rows of data, retrieve subsets of information.
-
-10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
-	DDL - 
-	DML - commands are used for manipulating the data stored in the table and not the table itself in addition it will help to It helps you to insert, update, delete and retrieve data from the database.
+5.Define the importance of Relation Database Management System(RDBMS)?
+	
+  Makes it easy to manage large amount of information.
+  Handles security.
+  Backups
+  Concurrency
+  Interacts with system applications
 
 
-	DCL Data control language are the commands to grant and take back authority from any database user in addition it will help to It allows you to control access to the database. eg – Grant or Revoke access permissions.
-
-•	TCL commands are used to manage transactions in the database. These are used to manage the changes made to the data in a table by DML statements. It also allows statements to be grouped together into logical transactions. Example – Commit, Rollback, Savepoint, Set Transaction.
-
-•	DL (Data Definition Language) – It allows you to perform various operations on the database such as CREATE, ALTER and DELETE objects.
-•	DML (Data Manipulation Language) – It allows you to access and manipulate data. It helps you to insert, update, delete and retrieve data from the database.
-•	DCL (Data Control Language) – It allows you to control access to the database. Example – Grant or Revoke access permissions.
-•	TCL (Transaction Control Language) – It allows you to deal with the transaction of the database. Example – Commit, Rollback, Savepoint, Set Transaction.
+6. As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+	Relational Database (SQL) is structured and the date is organized in table format. 
+	Not Relational DB No (SQL) is document oriented. 
 
 
-11.      What is table in Database (DB)?
-Table is a collection of related data held in a table format with in a database. It consists of column and rows. 
+7. List examples of Relation Database Management System(RDBMS)?
+        MySQL,SQL, Oracle, postgre SQL
+
+8. List examples of Non-Relational DB(Nosql)? 
+         MangoDB, RDES, APACI
+
+9. Define and Describe is Structured Query Language(SQL)?
+     Mainly Used to perform CRUD(Create,Read,Update,and Delete) Operations Mean that By using SQL, you can add, update or delete rows of data, retrieve subsets of information.
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+    	DDL - define the language on the table
+    	DML - commands are used for manipulating the data stored in the table and not the table itself in addition it will help to It helps you to insert, update, delete and retrieve data from the database.
 
 
-12.     What is column and Row (tables) in table?
-Column in table it arrange the data in vertical top to bottom. 
-Row in table it arrange the data in horizontal from left to right. 
+    	DCL Data control language are the commands to grant and take back authority from any database user in addition it will help to It allows you to control access to the database. eg – Grant or Revoke access permissions.
+
+    •	TCL commands are used to manage transactions in the database. These are used to manage the changes made to the data in a table by DML statements. It also allows statements to be grouped together into logical transactions. Example – Commit, Rollback, Savepoint, Set Transaction.
+
+    •	DL (Data Definition Language) – It allows you to perform various operations on the database such as CREATE, ALTER and DELETE objects.
+    •	DML (Data Manipulation Language) – It allows you to access and manipulate data. It helps you to insert, update, delete and retrieve data from the database.
+     	DCL (Data Control Language) – It allows you to control access to the database. Example – Grant or Revoke access permissions.
+    •	TCL (Transaction Control Language) – It allows you to deal with the transaction of the database. Example – Commit, Rollback, Savepoint, Set Transaction.
+
+
+11.What is table in Database (DB)?
+     Table is a collection of related data held in a table format with in a database. It consists of column and rows. 
+
+
+12. What is column and Row (tables) in table?
+      Column in table it arrange the data in vertical top to bottom. 
+      Row in table it arrange the data in horizontal from left to right. 
