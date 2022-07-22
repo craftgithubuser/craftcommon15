@@ -15,14 +15,4 @@ cust_Gender varchar(2) not null,
 cust_County varchar(50) not null,
 cust_Salary decimal not null
 
-)
-
-
-
-
-
-
-
-
-
-
+);
