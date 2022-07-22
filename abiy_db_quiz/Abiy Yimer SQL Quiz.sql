@@ -198,5 +198,90 @@ select *
 from customers
 where cust_Country in ("Ethiopia", "USA", "France");
 
+-- Create a table  name Address inside MyDB Database
+-- uniquely identifies each record in a table by Cust_ZIP
+-- The Customers table and Address table are connected by Cust_ID
+
+use mydb;
+
+create table address(
+	cust_ZIP varchar(255) primary key not null,
+    cust_Street varchar(255) not null,
+    cust_City varchar(255) not null,
+    cust_State varchar(255),
+    cust_ID int,
+    foreign key(cust_ID) references Customers(Cust_ID)
+);
+
+
+--  Insert Data into Address table
+
+
+insert into address values
+	(1000,"megenagn","Addis Ababa","Addis Ababa",444),
+	(2000,"4_kilo","Addis Ababa","Addis Ababa",555),
+	(3000,"41-eyesus","Addis Ababa","Addis Ababa",888),
+	(4000,"6-kilo","Addis Ababa","Addis Ababa",333)
+;
+
+
+insert into address (cust_ZIP, cust_Street, cust_City, cust_State) values
+	(5000,"01-st","San Diego","California"),
+	(6000,"kU-road","Los Angeles","California"),
+	(7000,"JK-road","Miami","Florida"),
+	(8000,"Lj-road","Atlanta","Georgia")
+;
+
+
+-- Write a query that perform INNER JOIN.
+
+select customers.cust_ID, customers.cust_FirstName, customers.cust_LastName,customers.cust_Gender,customers.cust_Country,customers.cust_Salary,
+	address.cust_ZIP,address.cust_Street,address.cust_City,address.cust_State
+from customers 
+inner join address
+on customers.cust_Id = address.cust_ID;
+
+-- Write a query that perform LEFT OUTER JOIN.
+
+select customers.cust_ID, customers.cust_FirstName, customers.cust_LastName,customers.cust_Gender,customers.cust_Country,customers.cust_Salary,
+	address.cust_ZIP,address.cust_Street,address.cust_City,address.cust_State
+from customers 
+left outer join address
+on customers.cust_Id = address.cust_ID;
+
+-- Write a query that perform Right outer join.
+
+select customers.cust_ID, customers.cust_FirstName, customers.cust_LastName,customers.cust_Gender,customers.cust_Country,customers.cust_Salary,
+	address.cust_ZIP,address.cust_Street,address.cust_City,address.cust_State
+from customers 
+right outer join address
+on customers.cust_Id = address.cust_ID;
+
+
+-- Write a query that performFULL OUTER JOIN
+
+-- select customers.cust_ID, customers.cust_FirstName, customers.cust_LastName,customers.cust_Gender,customers.cust_Country,customers.cust_Salary,
+-- 	address.cust_ZIP,address.cust_Street,address.cust_City,address.cust_State
+-- from customers 
+-- full join address
+-- on customers.cust_Id = address.cust_ID;
+
+-- full join is not supported in mysql so to get the same result union right and left join.
+
+select customers.cust_ID, customers.cust_FirstName, customers.cust_LastName,customers.cust_Gender,customers.cust_Country,customers.cust_Salary,
+	address.cust_ZIP,address.cust_Street,address.cust_City,address.cust_State
+from customers 
+left outer join address
+on customers.cust_Id = address.cust_ID
+union
+select customers.cust_ID, customers.cust_FirstName, customers.cust_LastName,customers.cust_Gender,customers.cust_Country,customers.cust_Salary,
+	address.cust_ZIP,address.cust_Street,address.cust_City,address.cust_State
+from customers 
+right outer join address
+on customers.cust_Id = address.cust_ID;
+
+
+
+
 
 
