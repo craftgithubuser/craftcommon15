@@ -1,4 +1,0 @@
-Practice using git disktop.
-updated
-For practice pourpose only.
-update from branch QATesting/zewdinesh
