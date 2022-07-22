@@ -1,11 +1,10 @@
-package sampleone;
+package dag123;
 
-public class testone {
+public class dag123 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Hello guys!");
-
+  System.out.println("Hi");
 	}
-
+     
 }
