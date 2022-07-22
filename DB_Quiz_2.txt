@@ -1,47 +1,10 @@
+-- creating a database
 
-- add column Using alter
-         -- Name= bonus
-         -- DataType= Integer
-         -- It doesn't accept null value 
-
-alter table customers
-add bonus int not null;
-
--- modify column using alter
-          -- Name = Age
-		  -- Datatype = Integer,
-		  -- to not accept null value
-alter table customers
-MODIFY Cust_Age int NOT NULL;
-
--- Delete column using alter
-          -- Name = NickName
-		  -- Name = bonus
-Alter table customers
-drop COLUMN cust_nickName;
-
-Alter table customers
-drop COLUMN  bonus;
-
--- Rename Customers Table to Customer Table
-alter table customers 
-rename to customer;
-
--- Drop table Customer
-drop table customer;
--- Drop DataBase/schema
-drop database mydb;
-
-
--- Again Recreate Schema/DataBase MyDB after we Drop the schema
-
-create database MyDB;
-
--- Again Recreate the table Customers with all of it columns after we Drop the customer table 
-
+create schema MyDB;
 use MyDB;
 
--- creating table
+-- creating a table
+
 create table customers(
 custID int NOT NULL primary key auto_increment,
 cust_firstName varchar(50) not null,
@@ -53,3 +16,4 @@ cust_County varchar(50) not null,
 cust_Salary decimal not null
 
 );
+
