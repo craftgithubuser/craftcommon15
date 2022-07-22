@@ -1,0 +1,75 @@
+      Quiz 1       
+
+1.  what is Data?
+
+       -Data is a collection of information. refers to all the single items that are stored in a database, either individually or as a set.
+
+2.  what is Information?
+
+       -Information in DBMS is processed, organized, or summarized data
+
+3.  what is Database(DB)?
+
+       -Organized collection of data or information that can be accessed, updated, and managed
+
+ 
+4.  What is the Relation Database Management System(RDBMS)?
+
+       -It is an information management system that is oriented on a data model.
+
+       -DBMS stores, modifies and retrieves data
+
+
+5.  Define the importance of Relation Database Management System(RDBMS)?
+    
+    -The software used to store, manage, query, and retrieve data stored in a relational database is called a relational database management system
+
+
+6.  As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+    - A relational database is structured, meaning the data is organized in tables. Many times, the data within these tables have relationships with one another, or dependencies. 
+    - A non relational database is document-oriented, meaning, all information gets stored in more of a laundry list order.
+
+7.  List examples of Relation Database Management System(RDBMS)?	
+
+     - IBM, Oracle, MySQL, Microsoft SQLServer and PostgreSQL.
+
+
+8.  List examples of Non-Relational DB(Nosql)? 
+
+     - MongoDB 
+
+
+9.  Define and Describe is Structured Query Language(SQL)?
+
+     - SQL is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
+
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+              DDL(Data Definition Language)    
+     - It allows you to perform various operations  on the DataBase.
+     - All DDL commands are auto-committed. That means it saves  all the changes permanently  in the database.
+             
+             DML(Data Manipulation Language)
+     - the commands are used for manipulating the data stored in the table and not the table itself.
+     - the commands are not auto-committed. It means changes are not permanent to database, they can be rolled back.
+
+             DCL(Data Control Language)
+     - Data control language are the commands to grant and take back authority from any database user.
+
+             TCL(Transaction Control Language) 
+     - the commands are used to manage transactions in the database. 
+     - These are used to manage the changes made to the data in a table by DML statements
+
+
+11.   what is table in Database(DB)?
+
+    - Tables are database objects that contain all the data in a database. In tables, data is logically organized in a row-and-column format similar to a spreadsheet. 
+    - Each row represents a unique record, and each column represents a field in the record.
+
+12.   what is column and Row(tuples) in table?
+
+    - A table has rows and columns, where rows represents records and columns represent the attributes.
+
+
