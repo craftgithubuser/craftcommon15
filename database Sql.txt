@@ -1,0 +1,55 @@
+CREATE table Customers
+(
+Id int Primary key,
+FirstName varchar(25),
+LastName varchar(25),
+nickName varchar(15),
+Age integer,
+Gender Varchar(10), 
+country Varchar(25),
+
+
+
+
+use mydb;
+
+CREATE table Customers(
+Id int Primary key,
+FirstName varchar(25),
+LastName varchar(25),
+nickName varchar(15),
+Age integer,
+Gender char(10), 
+country Varchar(20),
+salary decimal(10000)
+
+
+
+
+);
+CREATE table customers(
+Id int,
+LastName Varchar(30),
+FirstName Varchar(30),
+NickName Varchar(15),
+Age Int,
+Country Varchar(50),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
