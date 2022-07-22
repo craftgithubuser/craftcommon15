@@ -12,7 +12,7 @@ cust_age int,
 Cust_Gender char(10) NOT NULL,
 Cust_country varchar(20) default 'Ethiopia',
 Cust_salary decimal NOT NULL
-);
+);customers
 -- modifying table
 alter table customers
 add cust_Nickname char(10) after cust_lastName;
@@ -55,3 +55,19 @@ end
 where Cust_ID IN(333,444,555);
 -- 3.Delete Cust_name=nick Jones whichCust_ID is 666
 delete from customers where cust_firstname ='nick' and Cust_lastName='jones' and cust_ID=666;
+-- adding column using ulter
+alter table customers
+add Name_Bonus int not null;
+alter table customers
+ modify column Cust_age int not null;
+ alter table customers
+drop column Bonus;
+-- renameing the table name
+rename table customers TO `Customer Table`;
+-- Drop table Customer
+drop table `customer table`
+-- Drop DataBase/schema
+drop database mydb;
+-- Again Recreate Schema/DataBase MyDB after we Drop the schema
+create schema MyDB;
+-- Again Recreate the table Customers with all of it columns after we Drop the customer table 
