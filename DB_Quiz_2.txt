@@ -4,7 +4,6 @@ create schema MyDB;
 use MyDB;
 
 -- creating a table
-
 create table customers(
 custID int NOT NULL primary key auto_increment,
 cust_firstName varchar(50) not null,
