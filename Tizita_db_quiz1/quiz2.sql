@@ -1,28 +1,6 @@
-
-  -- quiz2
-
-alter table customers
-add bonus int not null;
-
-alter table customers
-modify customerAge int not null;
-
-alter table customers
-drop column customerNickName;
-
-alter table customers
-drop column bonus; 
-
-alter table customers 
-rename to customer;
-
-drop table customer;
-
-drop database mydb;
+SELECT * FROM studentinfo.classes;
 
 create database MyDB;
-
-use MyDB;
 
  create table customers (
  customerID int auto_increment not null,

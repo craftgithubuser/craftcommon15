@@ -1,26 +1,37 @@
 
+  -- quiz2
 
-insert into customers (customerId, customerfirstname, customerlastname, customerage, customergender, customercountry, customersalary )
-values (111, 'Nick', 'Jones', null, 'M', 'USA', 20000000),     
-(222, 'Antony', 'Martial', null,  'M', 'France', 10000000),
-(333, 'Ross', 'Geller', null, 'M', 'uzbekistan', 36000000),
-(444, 'Chandler', 'Bing', null, 'M', 'Unkown', 34000000),
-(555, 'Rachel', 'Green', null, 'F', 'kazakhstan', 400000),
-(666, 'Nick', 'Jones', null, 'M', 'USA', 20000000), 
-(777, 'Poul', 'Pogba', null, 'M', 'France', '20000000'),
-(888, 'Joey' ,'Tribbiani', null, 'M', 'Ethiopia', '70000000');
+alter table customers
+add bonus int not null;
 
-update customers
-set customercountry = 'ethiopia'
-where customerid = '333';
+alter table customers
+modify customerAge int not null;
 
-update customers
-set customercountry = 'ethiopia'
-where customerid = '444';
+alter table customers
+drop column customerNickName;
 
-update customers
-set customercountry = 'ethiopia'
-where customerid = '555';
+alter table customers
+drop column bonus; 
 
-delete from customers
-where customerid = '666';
+alter table customers 
+rename to customer;
+
+drop table customer;
+
+drop database mydb;
+
+create database MyDB;
+
+use MyDB;
+
+ create table customers (
+ customerID int auto_increment not null,
+ customerFirstName varchar (100) not null,
+ customerLastName varchar (50) not null,
+ customerNickName varchar (50),
+ customerAge int,
+ customerGender char not null,
+ customerCountry varchar (50) not null,
+ customerSalary dec not null,
+ primary key (customerID)
+);
