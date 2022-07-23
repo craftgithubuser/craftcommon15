@@ -71,3 +71,7 @@ modify column Cust_Age not null
 
 alter table customers 
 drop column Bonus 
+
+alter table customers
+rename customer
+
