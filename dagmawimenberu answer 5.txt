@@ -1,0 +1,37 @@
+
+create table address(
+Cust_ZIP   Varchar (50)  primary key not null,
+Cust_street varchar (50) not null,
+Cust_city    varchar(50)  not null,
+Cust_state    varchar (50),
+Cust_Id        int (60) 
+
+);
+drop table address;
+
+Alter table address
+modify Cust_Id int;
+
+
+insert into address(Cust_ZIP,Cust_street,Cust_city,Cust_state,Cust_Id)
+value (100,'megenagn','addis abeba','addis ababa',444),
+       (200,'4-kilo','addis abeba','addis ababa',555),
+       ( 300,'41-eyesus','adiss abeba','addis ababa',888),
+       (400,'6-kilo','addis ababa','addis ababa',333),
+        (500, '01-st', 'sandiego', 'calfornia',4),
+       (600, 'ku-road','losangeles','california',3),
+       (700, 'jk-road','miami',    'florida',2),
+       (800, 'lj-road','atlanta',   'georgia',1);
+       
+     select customers.Cust_Id,customers.Cust_FirstName,customers.Cust_LastName,address.Cust_street,address.Cust_ZIP,address.Cust_city,address.Cust_state,customers.Cust_country
+     from customers inner join address
+     on customers.Cust_Id = address.Cust_Id;
+
+
+         select customers.Cust_Id,customers.Cust_FirstName,customers.Cust_LastName,address.Cust_street,address.Cust_ZIP,address.Cust_city,address.Cust_state,customers.Cust_country
+     from customers right outer join address
+     on customers.Cust_Id = address.Cust_Id;
+     
+           select customers.Cust_Id,customers.Cust_FirstName,customers.Cust_LastName,address.Cust_street,address.Cust_ZIP,address.Cust_city,address.Cust_state,customers.Cust_country
+     from customers left outer join address
+     on customers.Cust_Id = address.Cust_Id;
