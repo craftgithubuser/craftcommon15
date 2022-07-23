@@ -12,7 +12,8 @@ cust_age int,
 Cust_Gender char(10) NOT NULL,
 Cust_country varchar(20) default 'Ethiopia',
 Cust_salary decimal NOT NULL
-);customers
+);
+customers
 -- modifying table
 alter table customers
 add cust_Nickname char(10) after cust_lastName;
@@ -25,6 +26,10 @@ modify cust_ID int not null auto_increment;
 alter table customers
 drop column cust_Nickname;
 -- practising DML commands
+alter table customers
+modify Cust_salary int;
+alter table customers
+modify Cust_ID int;
 insert into customers
 values(null, "Lina", "Mao", 22, "Female", "Romania", 120000);
 insert into customers
@@ -71,3 +76,50 @@ drop database mydb;
 -- Again Recreate Schema/DataBase MyDB after we Drop the schema
 create schema MyDB;
 -- Again Recreate the table Customers with all of it columns after we Drop the customer table 
+-- Creating Another table
+create TABLE Address( 
+cust_ZIP varchar(30) not null primary key,
+cust_street varchar(30),
+Cust_city char(30) NOT NULL,
+cust_state char(20),
+cust_ID int
+);
+/*SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;*/
+insert into address
+values(1000, "megenagn", "Addis Ababa", "Addis Ababa", 444);
+insert into address
+values(2000, "4-kilo", "Addis Ababa", "Addis Ababa", 555);
+insert into address
+values(3000, "41-eyesus", "Addis Ababa", "Addis Ababa", 888);
+insert into address
+values(4000, "6-kilo", "Addis Ababa", "Addis Ababa", 333);
+insert into address
+values(5000, "01-st", "San Diego", "California", null);
+insert into address
+values(6000, "kU-road", "Los Angeles", "California", null);
+insert into address
+values(7000, "JK-road", "Addis Ababa", "Florida", null);
+insert into address
+values(8000, "Lj-road", "Atlanta", "Georgia", null);
+-- Write a query that perform INNER JOIN, LEFT OUTER JOIN, Right outer join and FULL OUTER JOIN.
+SELECT cust_firstname, Cust_lastName, Cust_Gender, Cust_country, Cust_salary
+FROM customers
+INNER JOIN address
+ON customers.cust_ID = address.cust_ID;
+-- Left Outer Join
+select cust_firstname, Cust_lastName, Cust_Gender, Cust_country, Cust_salary, Cust_city
+from customers
+left join address
+on customers.Cust_ID =address.cust_ID;
+-- right Outer Join
+select cust_age, Cust_country, Cust_salary, cust_ZIP
+from customers
+right join address
+on customers.Cust_ID= address.cust_ID;
+-- Full outer join is not supported in MySQL
+select cust_firstname , Cust_country, Cust_salary,cust_ZIP, Cust_city, cust_state
+from customers
+full join address
+on customers.Cust_ID = address.cust_ID;
