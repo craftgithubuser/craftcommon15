@@ -1,3 +1,6 @@
+
+-- quiz 2
+
 SELECT * FROM studentinfo.classes;
 
 create database MyDB;

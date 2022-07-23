@@ -1,4 +1,5 @@
 
+-- quiz4
 
 insert into customers (customerId, customerfirstname, customerlastname, customerage, customergender, customercountry, customersalary )
 values (111, 'Nick', 'Jones', null, 'M', 'USA', 20000000),     

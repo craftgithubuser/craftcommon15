@@ -1,5 +1,5 @@
 
-  -- quiz2
+  -- quiz3
 
 alter table customers
 add bonus int not null;
