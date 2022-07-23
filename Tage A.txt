@@ -1,3 +1,7 @@
+                           TAGESSE kEMISO
+                             quiz#1
+
+
 1.     what is Data?
    Data base is systematic collactions of data, that represent some real world entites.
 
