@@ -65,8 +65,8 @@ where Cust_ID=666;
 alter table customers 
 add column Bonus int not null
 
-alter table customers
-modify column Cust_Age not null
+Alter table customer
+modify column Cust_Age int not null
 
 
 alter table customers 
@@ -74,4 +74,32 @@ drop column Bonus
 
 alter table customers
 rename customer
+
+ALTER TABLE Customer 
+MODIFY Cust_Age int not null
+
+
+drop table customer
+
+drop database mydb
+
+
+create database MYDB;
+create table mydb.customers(
+
+Cust_ID int auto_increment not null primary key,
+Cust_FirstName varchar(30) not null,
+Cust_LastName varchar(30) not null,
+Cust_NickName varchar(10),
+Cust_Age int,
+Cust_Gender varchar(2) not null,
+Cust_Country varchar(15) not null,
+Cust_Salary decimal not null
+);
+
+
+
+
+
+
 
