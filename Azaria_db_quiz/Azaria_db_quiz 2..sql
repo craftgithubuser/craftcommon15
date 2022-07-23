@@ -43,3 +43,31 @@ Values(777,"Poul","Pogba","M","France",20000000);
 insert into MyDB.Customers (Cust_ID,Cust_FirstName,Cust_LastName,Cust_Gender,Cust_Country,Cust_Salary)
 Values(888,"Joey","Tribbiani","M","Ethiopia",70000000);
 
+
+
+update Customers
+Set Cust_Country = "Ethiopia"
+where Cust_Id = 333;
+
+update Customers
+Set Cust_Country = "Ethiopia"
+where Cust_Id = 444;
+
+update Customers
+Set Cust_Country = "Ethiopia"
+where Cust_Id = 555;
+
+
+
+delete from customers
+where Cust_ID=666;
+
+alter table customers 
+add column Bonus int not null
+
+alter table customers
+modify column Cust_Age not null
+
+
+alter table customers 
+drop column Bonus 
