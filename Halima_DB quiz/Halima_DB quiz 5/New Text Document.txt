@@ -1,0 +1,100 @@
+1.	Write a query which display all Records from the table?
+
+                     select * from database.table;
+
+2       Write a query which display all columns from the table where there Citizenship is Ethiopian?
+
+                   Select Citizenship column
+                   From tablename
+                   Where Citizenship = "Ethiopian";
+
+3.      Write a query which display all columns from the table where there Salary greater than 5million?
+
+                   Select Salary column
+                   From tablename
+                   Where Salary > "5 Million";
+
+4.       Write a query which display all Male Customers FirstName, LastName and      Country?
+
+                   Select Cust_FirstName, Cust_LastName, Country, column2,...
+                   From tablename
+                   Where Cust_Gender ="Male";
+
+ 5.      Write a query which display only distinct Country?
+
+                    select distnict Country
+                    from tablename;
+
+6       Write a query which display all Female Customers FirstName, LastName and Country in  descending?
+
+                        select Cust_FirstName, Cust_LastName, Cust_Country
+                        from tablename
+                        order by Cust_Gender = "Female" desc;
+
+7.      Write a query that display all records from the table where Gender female, Here salary is greater than 2million and also Here Citizenship is Ethiopian?
+
+                      Select Cust_Gender, Salary, Citizenship
+                      From tablename
+                      Where Cust_Gender ="Female", Salary > "2 million", Citizenship = "Ethiopian";
+
+8.       Write a query that display all records from the table where there Citizenship is Ethiopian or uzbekistan?
+
+                     select Citizenship
+                     From Tablename
+                     Where Citizenship = "Ethiopian" or "Uzbekistan";
+
+9.        Write a query that display Minimum Salary from the table?
+
+                          select min(salary) as 'Lowest salary'
+                          from tablename;
+
+10.      Write a query that display Maximum Fees from the table?
+
+                          select max(fee) as 'highest salary'
+                          from tablename;
+
+11.      Write a query that display Number of Customer We have in the
+
+                           select count(Columnname
+
+                           from tablename;
+
+12.       Write a query that display Average Salary from the record?
+
+
+                            select avg(Salary) as 'average salary'
+                            from tablename;
+
+13.       Write a query that display The sum of all customers Fees?
+
+                          select sum(Salary) as 'total salary'
+                          from tablename;
+
+14.      Write a query that display all the record where there salary is between 2million and 8million?
+
+                            select * 
+                            from tablename
+                            where Cust_Salary between "2 million" and "8 million";
+
+15.      Write a query that display all the record where there firstName start with 'S'?
+                             select *
+                             from tablename
+                             where cust_FirstName like 's%';
+
+16.       Write a query that display all the record where there firstName have 'e' in the second position and His/er lastName have end with 'e'?
+
+                     select *
+                     from tablename
+                     where Cust_FirstName like '_e', Cust_LastName like 'e%';
+
+17.       Write a query that display all the record where there LastName that start with 'p' and ends with 'a'?
+
+                           select *
+                           from tablename
+                           where Cust_LastName like 'p%'and like '_a';
+
+18.      Write a query that display all the customers from Ethiopia, USA and France?
+
+                         select distnict Ethiopia, USA, France 
+                         from tablename;
+	
