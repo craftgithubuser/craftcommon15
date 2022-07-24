@@ -1,0 +1,42 @@
+  what is Data?
+		Is a collection of discrete unit of information
+
+
+2.       what is Information?
+		Processed ,organized and structured data
+
+3.      what is Database(DB)?
+		is a systematic collection of data
+
+4.      What is the Relation Database Management System(RDBMS)?
+		it is a software used to store,manage,,and retrive data stored in a relational database.
+
+5.      Define the importance of Relation Database Management System(RDBMS)?
+		-it allow database admins to maintain,control, update data in the database easily
+
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+		the main differnce is the way data is stored. RDBSQL uses table. NON-RDBSQL is hierarchical structure
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+		-SQL SERVER, ORACLE,IBM,4D
+
+8.       List examples of Non-Relational DB(Nosql)? 
+		-Document-oriented databases, key-value databases, object databases and graph databases
+
+9.       Define and Describe is Structured Query Language(SQL)?
+		-programming language that is used to manage relational databases and perform various operations on the data in them. 
+
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+		DDL -(Data defintion language) change the structure of the table by creat,delete,alter
+		DML -(Data manipulate language) it allow you manipulate data on database
+		DCL -(Data control language) deals with the access rights and permission control of the database.
+		TCL -(Transaction control language) is a set of commands that perform a specific task on objects in a single unit of execution.
+11.      what is table in Database(DB)?
+		is a structure that organises data into rows and columns 
+
+
+12.     what is column and Row(tuples) in table?
+		column is the vertical arrangement of objects
+		Raw is the horizontal arrangement of object
