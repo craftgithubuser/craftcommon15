@@ -1,0 +1,34 @@
+
+  *second submission for quiz 1.
+
+1:- Data is a collection distinct,small unit of unprocessed information in mulitiple forms.
+
+2:- Information is a processed, organized and related data.
+
+3:- Database is a collection of inter-related data that can be stored, accessed, updated and managed.
+
+4:-RDBMS is a database management system that stores data in a row-based table structure which connects related data elements.
+ 
+5:-The advantage of RDBMS is hight security of the stored data, flexiblilty of updating data, easy backup, easy to understand.
+
+6:- SQL is used for relational database management and used to query structured related data. NoSQL,on the other hand, allows us to work with different unstructure data. it accepts different data structures, like key-value stores, documents, graph etc.
+
+7:-SQL DBs-- MySQL, Oracle db, Microsoft SQL Server, PostgreSQL...
+
+8:- NoSQL--MongoDB, Cassandra, CouchDB, HBase...
+
+9:-SQL stands for structured query language. It is a language used by RDBMS to query tables and other functions to handle data.We can create, delete,alter database as wel as insert, delete and update data. 
+
+10:-DDL: DATA Definition language is the subset of sql that handeles the definition of the structure of the data. like the structure of the table, schema and make modifications.
+  
+  DML: Data Manuplation Language is the stage where the data inside the database is being   manuplated.
+  
+  DCL:Data Control Language deals with access rights and permission control of the database.
+
+  TCL:Transaction Control Language are set of commands used to manage the changes made to the data in a table by DML statements.
+
+ 11:- Tables in DB are the objects that hold the data in a relational DB. it is organized in a row-column format.
+
+12:- Column is vertical entity in table which contains all information associalted with a specific field in a table. 
+   Row in table, also known as,a record or tuple. A horizontal entity that contains the specific information of each entry in the table. 
+   
