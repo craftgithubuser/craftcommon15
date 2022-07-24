@@ -1,0 +1,21 @@
+-- Insert the Data in to Customers table
+
+INSERT INTO customers(cust_ID, cust_FirstName, cust_LastName, cust_Age, cust_Gender, cust_Country, cust_Salary)
+VALUES
+("111", "Nick", "Jones",null, "M", "USA", "20000000"),
+("222", "Antony", "Martial", null, "M", "France", 10000000),
+('333', 'Ross', 'Geller', null, 'M', 'uzbekistan', 36000000),
+('444', 'Chandler', 'Bing',null, 'M', 'Unknown',34000000),
+('555', 'Rachel', 'Green',null, 'F', 'kazakhstan',  400000),
+('666', 'Nike', 'Jones',null, 'M', 'USA',  20000000),
+('777', 'Poul', 'Pogba',null, 'M', 'France',  20000000),
+('888', 'Betty', 'G',null, 'F', 'Ethiopia',  70000000);
+
+-- update
+UPDATE customers
+SET cust_Country = 'Ethiopia'
+WHERE Cust_ID IN('333','444','555');
+
+-- Delete 
+DELETE FROM customers
+WHERE cust_ID=666;
