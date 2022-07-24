@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+create database MYDB;
+create table MYDB. customers(
+cust_id int primary key not null,
+cust_firstname varchar(20)not null,
+cust_lastname varchar(10) not null,
+cust_nickname varchar(10),
+cust_age int,
+cust_Gender varchar(5) not null,
+cust_country varchar(10),
+
+custcreate table studentsInfo(
+StudentID int not null,
+FirstName varchar(255) not null,
+LastName varchar(255) not null ,
+Address varchar(255),
+Zipcode int not null,
+City varchar(255),
+Country varchar(255) not null,
+Fee int not null
+_salary decimal
