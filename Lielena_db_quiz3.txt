@@ -1,0 +1,38 @@
+use Mydb; 
+
+alter table Custemers
+add primary key (Cust_Id);
+
+alter table Custemers
+add column Bonus int not null;
+
+alter table Custemers
+modify column Cust_Age int not null;
+
+alter table Custemers
+drop column Cust_NickName;
+
+alter table Custemers
+rename Customer;
+
+drop table Customer;
+
+drop schema Mydb;
+
+create schema Mydb;
+
+use Mydb;
+
+create table custemers(
+Cust_ID int not null,
+cust_firstName varchar(50) not null,
+Cust_LastName Varchar (50) not null,
+cust_NickName varchar (40) not null,
+Cust_Age int,
+Cust_Gender varchar (6) not null,
+cust_country varchar (50) not null,
+cust_salary Decimal not null
+);
+
+alter table Custemers
+add primary key (Cust_Id);

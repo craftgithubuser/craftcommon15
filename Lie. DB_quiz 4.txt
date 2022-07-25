@@ -1,0 +1,211 @@
+Kalkidan Teshome, [7/23/2022 6:02 PM]
+1. select * from database.table;
+
+2. Select Citizenship column
+   From tablename
+   Where Citizenship = "Ethiopian";
+
+3. Select Salary column
+   From tablename
+   Where Salary > "5 Million";
+
+4. Select Cust_FirstName, Cust_LastName, Country, column2,...
+   From tablename
+   Where Cust_Gender ="Male";
+ 
+5. select distnict Country
+   from tablename;
+
+6. select Cust_FirstName, Cust_LastName, Country1. select * from database.table;
+
+2. Select Citizenship column
+   From tablename
+   Where Citizenship = "Ethiopian";
+
+3. Select Salary column
+   From tablename
+   Where Salary > "5 Million";
+
+4. Select Cust_FirstName, Cust_LastName, Country, column2,...
+   From tablename
+   Where Cust_Gender ="Male";
+ 
+5. select distnict Country
+   from tablename;
+
+6. select Cust_FirstName, Cust_LastName, Country
+   from tablename
+   order by Cust_Gender = "Female" desc;
+
+7. Select Cust_Gender, Salary, Citizenship
+   From tablename
+   Where Cust_Gender ="Female", Salary > "2 million", Citizenship = "Ethiopian";
+
+8. select Citizenship
+   From Tablename
+   Where Citizenship = "Ethiopian" or "Uzbekistan";
+
+9. select min(salary) as 'Lowest salary'
+   from tablename;
+
+10. select max(fee) as 'highest salary'
+    from tablename;
+
+11. select count(Columnname) 
+    From Tablename;
+
+12. select avg(Salary) as 'average salary'
+    From tablename;
+
+13. select sum(Salary) as 'total salary'
+    from tablename;
+
+14. select * 
+    from tablename
+    where Cust_Salary between "2 million" and "8 million";
+
+15. select *
+    from tablename
+    where cust_FirstName like 's%';
+
+16. select *
+    from tablename
+    where Cust_FirstName like '_e', Cust_LastName like 'e%';
+
+17. select *
+    from tablename
+    where Cust_LastName like 'p%'and like '_a';
+
+18. select distnict Ethiopia, USA, France 
+    from tablename;
+
+   from tablename
+   order by Cust_Gender = "Female" desc;
+
+7. Select Cust_Gender, Salary, Citizenship
+   From tablename
+   Where Cust_Gender ="Female", Salary > "2 million", Citizenship = "Ethiopian";
+
+8. select Citizenship
+   From Tablename
+   Where Citizenship = "Ethiopian" or "Uzbekistan";
+
+9. select min(salary) as 'Lowest salary'
+   from tablename;
+
+10. select max(fee) as 'highest salary'
+    from tablename;
+
+11. select count(Columnname) 
+    From Tablename;
+
+12. select avg(Salary) as 'average salary'
+    From tablename;
+
+13. select sum(Salary) as 'total salary'
+    from tablename;
+
+14. select * 
+    from tablename
+    where Cust_Salary between "2 million" and "8 million";
+
+15. select *
+    from tablename
+    where cust_FirstName like 's%';
+
+16. select *
+    from tablename
+    where Cust_FirstName like '_e', Cust_LastName like 'e%';
+
+17. select *
+    from tablename
+    where Cust_LastName like 'p%'and like '_a';
+
+18. select distnict Ethiopia, USA, France 
+    from tablename;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Database 
+
+Lab Guide
+
+
+Short Answer
+
+
+1.       what is Data?
+
+          = in Short data is a facts that can be recorded. It may be a text, number, Videos, Images.
+
+2.       what is Information?
+
+          = Information is processed, Organized & Structured data. It provides context for data & enables decision making processes.
+        
+3.      what is Database(DB)?
+
+         = 
+4.      What is the Relation Database Management System(RDBMS)?
+
+          = In simple terms RDBMS(relational Database Management System) is a software application used to creat, manag & administer the  Relational database.
+
+5.      Define the importance of Relation Database Management System(RDBMS)?
+
+          = The importance of RDMB creating new database admistering and managing the database by performing specified database operations.
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+         =  SQL databases defines & manipulates data based structured query languge.
+         = SQL Scalability in almost all situations
+         = SQL database have fixed or static or predifined schema.
+         = SQL database are the best suited for complex queries.
+         = NonSQL database has dynamic schema for unstructured data. data is stored in many ways which means it can be docoment oriented, column oriented, graph based or organized as a key value store.
+         =NonSQL non relational database have dynamic Schema.
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+
+          = MYSQL, ORACLE DATABASE, POSTGRE SQL, MONGODB, INFORMIX, SYBASE, ARORA DB 
+
+8.       List examples of Non-Relational DB(Nosql)? 
+
+           = MONGODB, APACHE CASS HANDRA, REDIS, COUCHBASE & APACHE HABASE
+
+9.       Define and Describe is Structured Query Language(SQL)?
+
+
+           =  SQL is the core of a relational database which is used for accessing &managing the db and also used to define tables and structures. it is standardized language from interacting with RDMS. mainly used to perform CRUD(create, read, update and delet) operations.)
+
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+
+            = DDL:- It allows you to perform various operations on the DB this includes changes to the structure of the table like creation of table, altering table, deleting a table etc. They are out _committed.  That means it saves all the chanes permanently in the data.
+
+            = DML:- it allows you to insert, update, delete and retrieve data from the database. they are not auto - committed. it means chane are not permanent to database, they can be rolled back.
+            =DCL:- the commands to grant and take athority from any database user. it allows you to control access to the database. Ex. Grant or Revoke access permissions.
+            =TCL:-are used to manage transctions in the database. It also allows statements to be grouped together into logical transactions. Ex. Commit, Roll Back Save Point, Set Transaction.
+
+
+11.   what is table in Database(DB)?  
+
+         = The tables ar database objects that contain all the data in a database. In tables, data is logically organized in a row and column format similar to a spread sheet. kEach row represets a unique record, & each column represents a field in the record.
+
+
+12.     what is column and Row(tuples) in table?
+
+          = The information in a database can be thought of as a spread sheet, with columns ( known as fields or arrributes) representin different catagories of inforation, and tuple(row) representing all rhe information from each field associated with a single record. In a relational database, a tuple contains all the data for an individual recod.
+
+
+
+
+
