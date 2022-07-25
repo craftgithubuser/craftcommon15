@@ -1,0 +1,65 @@
+use mydb;
+
+
+create table Address(
+Cust_Zip Varchar(50) not null,
+cust_Street varchar(50) not null,
+Cust_City Varchar (50) not null,
+cust_State varchar (50),
+Cust_ID int
+);
+
+
+alter table Address
+add primary key (Cust_ZIP);
+
+
+alter table Address
+add foreign key(Cust_ID)
+references Custemers(cust_ID);
+
+
+insert into Address(Cust_Zip, Cust_Street, Cust_City, Cust_State, Cust_ID)
+values(1000, 'megenagn', 'Addis Ababa', 'AddisAbaba', 444),
+(2000, '4-kilo', 'Addis Ababa', 'Addis Ababa', 555),
+(3000, '41-eyesus', 'Addis Ababa', 'Addis Ababa',888),
+(4000, '6-kilo', 'Addis Ababa', 'Addis Ababa' "333"),
+(5000, '01-st', 'San Diego', 'California', not  null),
+(6000, 'kU-road', 'Los Angeles', 'California', not null),
+(7000, 'JK-road', 'Miami', 'Florida', not null),
+(8000, 'Lj-road', 'Atlanta', 'Georgia', not null);
+
+
+
+
+select address.cust_id,custemers.cust_FirstName,custemers.cust_gender,custemers.cust_country,address.cust_state
+from custemers
+inner join address
+on custemers.cust_id=address.cust_id
+
+
+
+select address.cust_id,custemers.cust_FirstName,custemers.cust_gender,custemers.cust_country, address.cust_city
+from custemers 
+left outer join address
+on custemers.cust_id=address.cust_id;
+
+
+select address.cust_id,custemers.cust_FirstName,custemers.cust_gender,custemers.cust_country,address.cust_state
+from custemers
+Right join address
+on custemers.cust_id=address.cust_id;
+
+
+
+
+select address.cust_id,custemers.cust_FirstName,custemers.cust_gender,custemers.cust_country, address.cust_city
+from custemers 
+left outer join address
+on custemers.cust_id=address.cust_id
+union
+select address.cust_id,custemers.cust_FirstName,custemers.cust_gender,custemers.cust_country,address.cust_state
+from custemers
+Right join address
+on custemers.cust_id=address.cust_id;
+
