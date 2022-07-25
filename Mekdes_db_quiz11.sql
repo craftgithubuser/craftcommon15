@@ -1,0 +1,9 @@
+cust_Id,cust_firstname,cust_lastname,cust_age,cust_Gender,cust_country,cust_salary
+111,Nick,Jones,32,M,USA,20000000
+222,Antony,Martial,40,M,France,10000000
+333,Ross,Geller,NULL,M,Ethiopia,36000000
+444,Chandler,Bing,NULL,M,Ethiopea,34000000
+555,Rachel,Green,NULL,F,Ethiopia,400000
+666,Nick,Jones,NULL,M,USA,20000000
+777,Poul,Pogba,NULL,M,France,20000000
+888,Joey,Tribbiani,NULL,M,Ethiopia,70000000

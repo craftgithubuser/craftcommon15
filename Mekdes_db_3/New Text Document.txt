@@ -1,0 +1,113 @@
+
+create table customers(
+cust_id int primary key not null,
+cust_firstname varchar(20)not null,
+cust_lastname varchar(10) not null,
+cust_nickname varchar(10),
+cust_age int,
+cust_Gender varchar(5) not null,
+cust_country varchar(10),
+cust_salary decimal);
+ustomers
+ modify cust_id int auto_increment;
+alter table customers
+add primary key (cust_id);
+
+insert into customers(cust_id, cust_firstname, cust_lastname, cust_gender, cust_country, cust_salary)
+ values(111,'Nick','Jones','M','USA', 20000000),    
+(222,'Antony','Martial','M','France',10000000),
+(333,'Ross','Geller','M','uzbekistan',36000000),
+(444,'Chandler','Bing','M','Unkown',34000000),
+(555,'Rachel','Green','F','kazakhstan',400000),
+(666,'Nick','Jones','M','USA',20000000),   
+(777,'Poul','Pogba','M','France',20000000),
+(888,'Joey','Tribbiani','M','Ethiopia',70000000)
+
+
+ 
+update customers 
+set cust_country = "Ethiopea"
+where cust_Id = 444; 
+
+
+update customers 
+set cust_country = "Ethiopea"
+where cust_Id = '333';
+
+
+ update customers 
+set cust_country = "Ethiopea"
+where cust_Id = '555';
+
+delete from customers
+ where cust_id =666;
+
+
+create database mydb3;
+use mydb3;
+create table Address(
+Cust_ZIP varchar(20) not null,
+Cust_Street varchar(20) not null,
+Cust_City varchar(40) not null,
+Cust_State varchar(50),
+Cust_ID int,
+primary key(Cust_ZIP),
+foreign key(Cust_ID) references Customers(Cust_ID)
+);
+
+insert into MyDB.Address(Cust_ZIP,Cust_Street,Cust_City,Cust_State,Cust_ID)
+values("1000","megenagn","Addis Ababa","Addis Ababa",444);
+
+insert into MyDB.Address(Cust_ZIP,Cust_Street,Cust_City,Cust_State,Cust_ID)
+value("2000","4-kilo","Addis Ababa", "Addis Ababa",555),
+("3000","41-eyesus","Addis Ababa", "Addis Ababa",888),
+("4000","6 kilo","Addis Ababa","Addis Ababa",333);
+
+insert into Address(Cust_ZIP,Cust_Street,Cust_City,Cust_State)
+value("5000","01-st","San Diego","California"),
+("6000","kU-road","Los Angeles","California"),
+("7000","JK-road","Miami","Florida"),
+("8000","Lj-road","Atlanta","Georgia");
+
+select Customers.Cust_FirstName as "first_name",Customers.Cust_Country,Customers.Cust_Salary,Address.Cust_Street,Address.Cust_City
+from Customers inner join Address
+on Customers.Cust_ID=Address.Cust_ID;
+
+select Customers.Cust_ID,Customers.Cust_FirstName as "first_name",Customers.Cust_Country,Customers.Cust_Salary,Address.Cust_Street,Address.Cust_City
+from Customers left outer join Address
+on Customers.Cust_ID=Address.Cust_ID;
+
+select Customers.Cust_ID, Customers.Cust_FirstName as "first_name",Customers.Cust_Country,Customers.Cust_Salary,Address.Cust_Street,Address.Cust_City
+from Customers right outer join Address
+on Customers.Cust_ID=Address.Cust_ID;
+
+select Customers.Cust_ID,Customers.Cust_FirstName as "first_name",Customers.Cust_Country,Customers.Cust_Salary,Address.Cust_Street,Address.Cust_City
+from Customers left outer join Address
+on Customers.Cust_ID=Address.Cust_ID
+union
+select Customers.Cust_ID,Customers.Cust_FirstName as "first_name",Customers.Cust_Country,Customers.Cust_Salary,Address.Cust_Street,Address.Cust_City
+from Customers right outer join Address
+on Customers.Cust_ID=Address.Cust_ID;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
