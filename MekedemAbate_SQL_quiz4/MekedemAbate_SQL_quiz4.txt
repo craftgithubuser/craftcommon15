@@ -1,0 +1,64 @@
+ 1. SELECT * 
+    FROM table_name;
+
+ 2. SELECT * 
+    FROM table_name 
+    WHERE Citizenship='Ethiopian'
+
+ 3. SELECT * 
+    FROM table_name 
+    WHERE Salary>5000000;
+
+ 4. SELECT Cust_FirstName, Cust_LastName,Cust_Country,Cust_Gender
+    FROM table_name
+    WHERE Cust_Gender='Male';
+
+ 5. SELECT DISTINCT Country 
+    FROM table_name;
+
+ 6. SELECT * 
+    FROM table_name
+    ORDER BY Cust_FirstName,Cust_LastName,Cust_Country,Cust_Gender DESC
+    WHERE Cust_Gender='Female';
+
+ 7. SELECT * 
+    FROM table_name
+    WHERE Cust_Gender='Female' and Salary>2000000
+
+ 8. SELECT * 
+    FROM table_name
+    WHERE Citizenship='Ethiopia'or Citizenship='Uzbekistan';
+
+ 9. SELECT MIN(salary) 
+    FROM table_name;
+
+10. SELECT MAX(fees) 
+    FROM table_name;
+
+11. SELECT COUNT(*) 
+    FROM table_name;
+
+12. SELECT AVG(Salary) as 'average salary'
+    FROM tablename;
+
+13. SELECT sum(fee) as 'customers fee'
+    FROM  table_name;
+
+14. SELECT * 
+    FROM  tablename
+    WHERE Salary BETWEEN 2000000 and 8000000;
+
+15. SELECT *
+    FROM tablename
+    WHERE FirstName LIKE 's%';
+
+16. SELECT *
+    FROM  tablename
+    WHERE FirstName LIKE '_e%' OR LastName LIKE '%e';
+
+17. SELECT *
+    FROM  tablename
+    WHERE LastName LIKE 'p%a';
+
+18. SELECT DISTINCT Country 'Ethiopia','USA','France'
+    FROM customers;
