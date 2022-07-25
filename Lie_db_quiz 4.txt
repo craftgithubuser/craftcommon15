@@ -1,0 +1,125 @@
+
+1. select * from database.table;
+
+2. Select Citizenship column
+   From tablename
+   Where Citizenship = "Ethiopian";
+
+3. Select Salary column
+   From tablename
+   Where Salary > "5 Million";
+
+4. Select Cust_FirstName, Cust_LastName, Country, column2,...
+   From tablename
+   Where Cust_Gender ="Male";
+ 
+5. select distnict Country
+   from tablename;
+
+6. select Cust_FirstName, Cust_LastName, Country1. select * from database.table;
+
+2. Select Citizenship column
+   From tablename
+   Where Citizenship = "Ethiopian";
+
+3. Select Salary column
+   From tablename
+   Where Salary > "5 Million";
+
+4. Select Cust_FirstName, Cust_LastName, Country, column2,...
+   From tablename
+   Where Cust_Gender ="Male";
+ 
+5. select distnict Country
+   from tablename;
+
+6. select Cust_FirstName, Cust_LastName, Country
+   from tablename
+   order by Cust_Gender = "Female" desc;
+
+7. Select Cust_Gender, Salary, Citizenship
+   From tablename
+   Where Cust_Gender ="Female", Salary > "2 million", Citizenship = "Ethiopian";
+
+8. select Citizenship
+   From Tablename
+   Where Citizenship = "Ethiopian" or "Uzbekistan";
+
+9. select min(salary) as 'Lowest salary'
+   from tablename;
+
+10. select max(fee) as 'highest salary'
+    from tablename;
+
+11. select count(Columnname) 
+    From Tablename;
+
+12. select avg(Salary) as 'average salary'
+    From tablename;
+
+13. select sum(Salary) as 'total salary'
+    from tablename;
+
+14. select * 
+    from tablename
+    where Cust_Salary between "2 million" and "8 million";
+
+15. select *
+    from tablename
+    where cust_FirstName like 's%';
+
+16. select *
+    from tablename
+    where Cust_FirstName like '_e', Cust_LastName like 'e%';
+
+17. select *
+    from tablename
+    where Cust_LastName like 'p%'and like '_a';
+
+18. select distnict Ethiopia, USA, France 
+    from tablename;
+
+   from tablename
+   order by Cust_Gender = "Female" desc;
+
+7. Select Cust_Gender, Salary, Citizenship
+   From tablename
+   Where Cust_Gender ="Female", Salary > "2 million", Citizenship = "Ethiopian";
+
+8. select Citizenship
+   From Tablename
+   Where Citizenship = "Ethiopian" or "Uzbekistan";
+
+9. select min(salary) as 'Lowest salary'
+   from tablename;
+
+10. select max(fee) as 'highest salary'
+    from tablename;
+
+11. select count(Columnname) 
+    From Tablename;
+
+12. select avg(Salary) as 'average salary'
+    From tablename;
+
+13. select sum(Salary) as 'total salary'
+    from tablename;
+
+14. select * 
+    from tablename
+    where Cust_Salary between "2 million" and "8 million";
+
+15. select *
+    from tablename
+    where cust_FirstName like 's%';
+
+16. select *
+    from tablename
+    where Cust_FirstName like '_e', Cust_LastName like 'e%';
+
+17. select *
+    from tablename
+    where Cust_LastName like 'p%'and like '_a';
+
+18. select distnict Ethiopia, USA, France 
+    from tablename;
