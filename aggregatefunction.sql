@@ -60,8 +60,8 @@ from customers;
 -- Write a query that display The sum of all customers Fees?
 
       select sum(cust_Fee) from customers;
-     -- Write a query that display all the record where there salary is between 2million and 8million? 
       
+     -- Write a query that display all the record where there salary is between 2million and 8million? 
       select * from customers where cust_salary between 2000000 and 8000000;
      --  Write a query that display all the record where there firstName start with 'S'?
 select * from customers where cust_FirstName like 'S%';
