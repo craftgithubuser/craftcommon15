@@ -1,0 +1,50 @@
+
+1,What is Data?
+
+  -Data is a coolection of facts,such as numbers words,measurmens,obsevations or just description of things.
+
+2  What is information?
+   -It is a new knowledge receive or given to someone.
+
+3  What is Data base (DB)?
+ -DBis a systematic collectionrelated of data that represent some real world entities.
+
+4  What is the relation DataBase Management system (RDBMS)?
+
+   -It is an information management system that is oriented on a data model! all the information is properly stored as a table 
+   Example SQL server,Oracle,MYSQL,mARIAdb etc.
+
+5  Define the importance of relation Database Managemenet system (RDBMS)?
+   -Database management system are essential for busineses becouse they offer an efficient way of handlinglaarge amount and multiple
+    type of data.The ability to acceses data efficiently allos companies to make informed decission quicker.
+
+6  As we alll know tat there are two types of database relational dataBse (SQL)And None Relational DB (NOSQL) what is the different 
+   between them.
+  -relational database store data in row and coloumn like a spreed sheet while non relational store data dont using a storage model
+  one of four yhat is the bestsuited for the type of data it is storing.
+
+7 List example Of relation Database management system (RDBMS)? 
+- Microsoft SQL server,Oracle Database,MySQL and IBM DB2.
+
+8 List example of a non-relational DB(NOSQ)?
+ -MongoDB,Apachecassandra,Redis,couchbase and Apache HBase they are the best raapid application.
+
+9 Define and describe is structured query (SQL)?
+  -SQL is standardized programing language that is used to manage relational datbase and perform various operations on the data in them.
+
+10 List and describe each of the different subset of(Mean DDL,DML,DCL,TCL)? 
+   - DDL is used to define the database structure or schma and also used to specify additional propertis of the data.
+   - DML are used for managing data with in schema objects.
+   - DCL data control language is a syntax similar to computer programming language used to control access to data stored in a database.
+   -TCL Transaction control language command are used to manage transaction in the database.
+
+11 What is table in a databse(DB)?
+   - Table is an arrangement of information or data typically in rows and coloumns,or possibly in a more complex structures.
+
+12 What is column and row(tuples) in table?
+
+   -the column arranges data vertically from top to bottom,and the row arranges data horizontally from left to right.
+
+
+
+ 
