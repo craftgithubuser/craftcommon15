@@ -42,5 +42,9 @@ on Address.Cust_ID = customers.Cust_ID;
 
 -- Write a query that perform FULL OUTER JOIN
 select Customers.Cust_FirstName, Customers.Cust_LastName, Customers.Cust_FirstName, Customers.Cust_Age, Customers.Cust_Gender, Customers.Cust_Country, Address.Cust_ID, Address.Cust_Street, Address.Cust_City, Address.Cust_State, Address.Cust_ZIP 
-from Address full join customers
+from Address left outer join customers
+on Address.Cust_ID = customers.Cust_ID
+union
+select Customers.Cust_FirstName, Customers.Cust_LastName, Customers.Cust_FirstName, Customers.Cust_Age, Customers.Cust_Gender, Customers.Cust_Country, Address.Cust_ID, Address.Cust_Street, Address.Cust_City, Address.Cust_State, Address.Cust_ZIP 
+from Address right outer join customers
 on Address.Cust_ID = customers.Cust_ID;
