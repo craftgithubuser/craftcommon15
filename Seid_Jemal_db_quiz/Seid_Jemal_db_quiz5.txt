@@ -1,0 +1,153 @@
+﻿Write A Query for the following
+
+
+
+
+1.      Write a query which display all Records from the table?
+             
+             Select *  From customers;
+
+
+
+
+2       Write a query which display all columns from the table where  there Citizenship is Ethiopian?
+
+
+SELECT * 
+FROM customers
+WHERE cust_Country='Ethiopia';
+
+
+3.      Write a query which display all columns from the table where  there Salary greater than 5million?
+SELECT * 
+FROM customers
+Where cust_salary > 5000000;
+
+
+4.       Write a query which display all Male Customers FirstName, LastName and Country?
+SELECT  cust_FirstName,cust_LastName ,cust_Country
+FROM customers
+Where Cust_Gender='m';
+
+
+
+
+5.      Write a query which display only distinct Country?
+ SELECT DISTINCT cust_country
+ FROM customers;
+
+
+
+
+6       Write a query which display all Female Customers FirstName, LastName and Country in  descending?
+           
+SELECT  cust_FirstName,cust_LastName ,cust_Country
+FROM customers
+Where Cust_Gender='f'
+order by cust_firstname desc;
+
+
+
+
+
+
+
+
+
+
+7.      Write a query that display all records from the table where Gender female, Here salary is greater than 2million and also Here Citizenship is Ethiopian?
+
+
+select *
+from customers
+where cust_gender= 'f' and cust_salary > 2000000 and cust_country= 'ethiopia';
+
+
+
+
+
+
+8.       Write a query that display all records from the table where there Citizenship is Ethiopian or uzbekistan?
+select* 
+from customers
+where cust_country= 'ethiopia' or cust_country='uzbekistan';
+
+
+
+
+9.        Write a query that display Minimum Salary from the table?
+select *
+from customers
+where cust_salary = (select min(cust_salary) from customers);
+
+
+
+
+10.      Write a query that display Maximum Fees from the table?
+select *
+from customers
+where cust_salary = (select max(cust_salary) from customers);
+
+
+11.      Write a query that display Number of Customer We have in the table?
+SELECT COUNT(*) 
+FROM customers;
+
+
+
+
+12.       Write a query that display Average Salary from the record?
+SELECT AVG(salary), COUNT(*) 
+     FROM customers;
+
+
+       13.       Write a query that display The sum of all customers Fees?
+
+
+select sum(cust_salary)
+    from customers;
+
+
+14.      Write a query that display all the record where there salary is between 2million and 8million?
+  SELECT *
+FROM customers
+WHERE cust_salary BETWEEN 2000000 AND 8000000
+
+
+
+
+15.      Write a query that display all the record where there firstName start with 'S'?
+select *
+from customers
+where cust_firstname like 's%'
+
+
+
+
+16.       Write a query that display all the record where there firstName have 'e' in the second position and His/er lastName have end with 'e'?
+SELECT *  
+FROM customers
+WHERE UPPER(SUBSTR(cust_firstname, 2, 1)) = 'e' and cust_lastname like '%e'
+
+
+
+
+17.       Write a query that display all the record where there LastName that start with 'p' and ends with 'a'?
+SELECT *  
+FROM customers
+where cust_lastname like 'p%' and cust_lastname like '%a'
+
+
+
+
+
+
+18.      Write a query that display all the customers from Ethiopia, USA and France?
+select *
+from customers
+where cust_country = 'ethiopia' or cust_country = 'usa' or cust_country ='france'
+
+
+
+
+To Be Continued…
