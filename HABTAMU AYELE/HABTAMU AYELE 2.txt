@@ -1,0 +1,1 @@
+Git version control is open source. It's a distributed free version control software. In fact, Git version control is one of the most popular options. It's open source, so anyone can use it.
