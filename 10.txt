@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+Greetings,...
+Changed to Updated Good afternoon
+Helloo friends
+=======
+good morningS
+Changed to Updated Good afternoon
+
+>>>>>>> 2ee2c921678c09a2de8daaaee24921490b1bf547
