@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+Hey everyone
+craft Study group
+=======
+Hey everyone and thankyou
+>>>>>>> b7c2224c57e1a12eec788926d111e9d67860ff28

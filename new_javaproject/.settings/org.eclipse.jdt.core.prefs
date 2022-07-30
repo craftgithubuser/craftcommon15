@@ -1,14 +1,26 @@
 eclipse.preferences.version=1
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+<<<<<<< HEAD:iCraft_muleSoft_projct/.settings/org.eclipse.jdt.core.prefs
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
+org.eclipse.jdt.core.compiler.compliance=1.8
+=======
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=14
 org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
 org.eclipse.jdt.core.compiler.compliance=14
+>>>>>>> 2ee2c921678c09a2de8daaaee24921490b1bf547:new_javaproject/.settings/org.eclipse.jdt.core.prefs
 org.eclipse.jdt.core.compiler.debug.lineNumber=generate
 org.eclipse.jdt.core.compiler.debug.localVariable=generate
 org.eclipse.jdt.core.compiler.debug.sourceFile=generate
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+<<<<<<< HEAD:iCraft_muleSoft_projct/.settings/org.eclipse.jdt.core.prefs
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.release=disabled
+org.eclipse.jdt.core.compiler.source=1.8
+=======
 org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
 org.eclipse.jdt.core.compiler.release=enabled
 org.eclipse.jdt.core.compiler.source=14
+>>>>>>> 2ee2c921678c09a2de8daaaee24921490b1bf547:new_javaproject/.settings/org.eclipse.jdt.core.prefs
