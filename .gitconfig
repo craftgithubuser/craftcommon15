@@ -1,0 +1,8 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Gugum2
+	email = 108777705+Gugum2@users.noreply.github.com

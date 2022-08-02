@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+hello friends
+=======
 nine
+>>>>>>> 4517876c834f9f1aa5c0eeb9a737609b039f7486

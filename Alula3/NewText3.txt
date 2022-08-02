@@ -1,0 +1,5 @@
+ {
+   "Employee_Name": "Tedila",
+   "Employee_Id": 56732,
+   "Employee_Dep": "Adimin"
+ } 

@@ -1,0 +1,2 @@
+module sample12javaproject {
+}
