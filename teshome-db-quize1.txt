@@ -1,0 +1,26 @@
+frist queiz
+.Data is a systematic record of a particular quantity represented together in a set or we can define as a collection of facts and figures to be used
+for a specific purpose.
+#2.Information is the output of data that gives a meaningful to the particular quantity represented in a set.
+#3.Database is an organized collection of data stored on a file system or cloud storage.
+#4.Relational Database Managment System is a collection of programs that enable user to create,update and interacts with a relational database.
+#5.The data structure of the table format is simple and easy for database users to understand and use.
+  *allows multiple database users to access a database simultaneously.
+  *provides a network access that allows developers to interact with databases.
+  *is naturally scalable and flexible
+#6.Relational Database                                  Non-Relational Database
+   *data is stored on tables                      *data is stored as in an message type like an informaion
+   *they are slower inorder to                    *faster when compared to Relational Database to access a data
+  acces a data
+   *are verbally scalable                         *are horizontally scalable
+#7.Microsoft SQL Server,Oracle Database,MySQL 
+#8.MongoDB,Apache Cassandra,Couchbase
+#9.SQL is a structural query language which manage data held in a relational database managment system by performing a task like creating,reading,deleting 
+and updating a data stored in a database.
+#10.DDL->Data Definition Language that allows you to perform various operations on the databse by using different ddl commands which are auto-commited.
+    DML->Data Manipulation Language that is used to manipulate the data stored in the table by using an auto-commited commands.
+    DCL->Data Control Language that allows you to control access the database by granting and revoking from many database users.
+    TCL->Transaction Control Language that controls the transaction of the CRUD.
+#11.is a structure that orginises data into raws and columns.
+#12.Column is an attribute that  depends on its context that is provided a data value from row.
+    Row(Tuple) is a single structed data item in a table.
