@@ -1,0 +1,29 @@
+package com.Array_Quiz;
+
+
+public class Challenge1 {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+     int[] Marks = new int[]{106, 26, 81, 5, 15};
+     
+     for (int i = 0; i<Marks.length; i++) {
+    	 for(int j=i+1; j<Marks.length; j++) {
+    		 int tempo = 0;
+    		 if(Marks[i]<Marks[j]) 
+    		 {
+    			 tempo = Marks[i];
+    			 Marks[i]=Marks[j];
+    			 Marks[j]=tempo;
+    		 }
+    	 }
+     
+    	 System.out.println(Marks[i]);
+     }
+		
+     
+     
+	}
+
+}
