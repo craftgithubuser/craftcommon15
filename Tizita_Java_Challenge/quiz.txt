@@ -1,0 +1,36 @@
+package com.Multi_Dimensional_Array;
+
+public class Quiz1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double[][] studMark = { 
+				               { 57.5, 64.7, 69.3, 89, 59.8, }, 
+				               { 75, 67, 93, 89, 59, 87, 99 },
+				               { 55, 47, 69, 89, 98, 87, 89 } 
+                 			  };
+
+		// using for loop
+
+		double avg;
+		double total = 0;
+
+		for (int i = 0; i < studMark.length; i++) {
+			for (int j = 0; j < studMark[i].length; j++) {
+
+				total += studMark[i][j];
+
+			}
+			avg = total / studMark.length;
+
+			System.out.print("total =  " + total);
+			System.out.println();
+			System.out.print("average = " + avg);
+			System.out.println();
+
+		}
+
+	}
+
+}
