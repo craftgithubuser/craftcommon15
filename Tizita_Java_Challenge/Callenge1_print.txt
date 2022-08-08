@@ -1,0 +1,18 @@
+package com.Array_Challenge;
+
+public class Challenge1_Print {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 int[] Marks = new int[]{106, 26, 81, 5, 15};
+	     
+	     for (int i = 0; i<Marks.length; i++)
+	     {
+	     
+	    	 System.out.print(Marks[i] + " ");
+	     }
+			
+	}
+
+}
