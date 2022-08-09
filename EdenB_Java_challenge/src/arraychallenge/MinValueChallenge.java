@@ -8,7 +8,7 @@ public class MinValueChallenge {
 	public static void main(String[] args) {
 		int Arr1 [] = readInteger(0);
 		 System.out.println("the element of the Array: " + Arrays.toString(Arr1));
-		
+		 System.out.println();
 	    System.out.println("The minimum int in the Array is: " + findMin(Arr1,Arr1.length));
 
 	}

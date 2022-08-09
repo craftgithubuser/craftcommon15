@@ -1,8 +1,6 @@
 package arraychallenge;
 
-
-
-  public class ReverseArrayChallenge {
+ public class ReverseArrayChallenge {
 
 	    public static void main(String[] args) {
 	
@@ -16,7 +14,7 @@ package arraychallenge;
 		    for(int i=0;i<arr1.length;i++)
 		         System.out.print(arr1[i] + "  ");
 		       
-		    System.out.println();
+		   System.out.println();
 		     
 		    
 		    System.out.println("Array in reverse order:");
