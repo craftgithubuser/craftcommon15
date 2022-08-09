@@ -15,6 +15,7 @@ public class ArrayChallengAss {
 					if (gread[i]<gread[j]) // it be ascending if we use >
 					{
 					
+					
 				tempo=gread[i];
 				gread[i]=gread[j];
 				gread[j]=tempo;
