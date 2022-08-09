@@ -1,5 +1,0 @@
-Git command contiued
-git status = shows the current status of working branch.
-git log  =  shows chronolgical commit history
-git rm  =  removes files from the working index (staging area)
-git remote =  connects local repository with remote repository.
