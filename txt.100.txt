@@ -1,6 +1,1 @@
-first
-<<<<<<< HEAD
-second 
-=======
-Hello world
->>>>>>> 15bd2fec71acb1b7687cd2ba2acfd28a15bb5001
+hello world
