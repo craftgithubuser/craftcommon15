@@ -1,0 +1,120 @@
+                         Stored Procedure Assessment
+
+
+1. To produce a stored procedure, which statement is used?
+A. PRODUCE FUNCTION
+B. CREATE FUNCTION
+C. PRODUCE PROCEDURE
+D. CREATE PROCEDURE
+   ===> Answer: D
+
+2. Which procedure parameter enables the caller to pass in a value and get back \
+A. IN
+B. OUT
+C. INOUT
+D. GETINOUT
+   ===> Answer: C
+
+3. Which of the following statements about Stored Procedures is true?
+A. They can provide a common set of database operations to multiple applications
+B. They allow you to store libraries of functions inside the database server
+C. They can improve security by limiting users to specific approved queries
+D. All of these
+   ===> Answer: D
+
+4. A procedure is deleted with ______________ statement.
+A. REMOVE PROCEDURE
+B. DELETE PROCEDURE
+C. Both A and B
+D. DROP PROCEDURE
+   ===> Answer: D
+
+5. A procedure is created with the ______________ statement.
+A. CREATE PROCEDURE
+B. REPLACE PROCEDURE 
+C. Both A and B
+D. None of the above
+   ===> Answer: C
+
+6. Parameters that act like a constant inside the program are?
+A. OUT
+B. IN
+C. Both A and B
+D. None of these
+    ===> Answer: B
+
+7. Stored procedure is a ____________ set of one or more SQL statements.
+A. Interpreted
+B. Compiled
+C. Pre-compiled
+D. None of the mentioned
+    ===> Answer: C
+
+8. Point out the wrong statement.
+A. Stored procedure can accept input and output parameters.
+B. Stored procedure can return multiple values using input parameters.
+C. Using stored procedure, we can Select, Insert, Update, Delete data in database
+D. None of the mentioned
+    ===> Answer: B
+
+9. Point out the wrong statement.
+A. A stored procedure is nothing more than prepared SQL code
+B. We can create a Stored Procedure using the Create proc statement
+C. We can create a Stored Procedure using the Create stor_proc statement
+D. All of the mentioned
+   ===> Answer: D
+
+10. Which of the following is advantage of SQL stored procedure?
+A. Maintainability
+B. Re-use of code
+C. Security
+D. All
+   ===> Answer: D
+
+11. Syntax to create stored procedure is/are
+A. CREATE PROCEDURE procedureName AS SQL statements
+B. CREATE PROCEDURE procedureName AS 
+   BEGIN
+    SQL statements
+   END
+C. CREATE PROC procedureName AS
+   BEGIN
+    SQL statements
+   END
+D. B & C
+   ===> Answer: B
+
+12. Which statement(s) is/are incorrect?
+A. Stored procedure returns a value and function must return a value
+B. Function has only IN parameter
+C. Try and Catch can be used with both stored procedure and function
+D. Stored procedure has IN and OUT parameter
+   ===> Answer: C
+
+13. Which statement(s) is/are incorrect?
+A. Stored procedure can be shared by multiple programs
+B. Stored procedures are in compiled form
+C. Stored procedures are a group of SQL statements
+D. All are correct
+   ===> Answer: D
+
+14. Which is SQL queries to execute stored procedure given below is/are incorrect?
+A. CREATE PROCEDURE spGetStudentByGenderAndAge
+@Gender varchar(10), @Age int
+As
+Begin
+Select Name, Gender, Age from tblStudent Where Gender = @Gender
+And Age = @Age
+End
+A. spGetStudentByGenderAndAge 1, ‘male’
+B. spGetStudentByGenderAndAge ‘male’, 1
+C. spGetStudentByGenderAndAge @Age=1, @Gender=’male’
+D. spGetStudentByGenderAndAge @Gender=’male’, @Age=1
+   ===> Answer: A
+
+15. What is the keyword to call a stored procedure in MySQL?
+A. CALL
+B. IN
+C. OUT
+D. INOUT
+   ===> Answer: A
