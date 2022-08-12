@@ -8,6 +8,7 @@ public class Box {
 	
 //	public Box(double w, double h, double d ) { //Constructor with parameter
 //		width=w;
+	
 //		height=h;
 //		depth=d;
 //	}
