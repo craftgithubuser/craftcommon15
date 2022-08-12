@@ -1,0 +1,60 @@
+
+                    Short Answer
+
+
+
+1. What is Data?
+
+    Data is a real-world entity or an object. Data is a distinct piece of information or facts that need to be processed. It can be in any form like text, number, picture, measurements, and bytes.
+
+2. What is Information?
+
+   When data are processed, organized, structured, and interpreted in a given context, so as to make them useful and meaningful, they are called information.  
+
+3. What is Database (DB)?
+
+   A database is an organized collection of inter-related data, which helps in insertion, deletion, and retrieval of data efficiently.
+ 
+4. What is the Relation Database Management System (RDBMS)?
+
+     The RDBMS IS a collection of an organized set of tables (rows and columns) from which data can be accessed easily.
+
+5. Define the importance of Relation Database Management System (RDBMS)?
+
+      The RDBMS provides an interface between users and applications and the database, as well as administrative functions for managing data storage, access, and performance.
+
+
+6. As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). What is the difference between them?
+
+     Relational database tables each have a primary key identifier. In a non-relational database, data is normally stored in hierarchical or navigational form, without the use of primary keys.
+
+7. List examples of Relation Database Management System (RDBMS)?
+
+    Microsoft Access, SQL Server, Oracle database, MySQL and IBM DB2.
+
+8. List examples of Non-Relational DB(Nosql)? 
+
+    MongoDB, Google Cloud  HYPERLINK "https://aloa.co/blog/as-a-startup-should-use-firestore-for-my-app"Firestore , Apache HBase, Amazon DynamoDB
+
+9. Define and Describe is Structured Query Language(SQL)?
+
+    SQL stands for Structural query language it is used for storing and managing data in RDBMS. It enables a user to create, read, update and delete relational databases and tables.
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+     DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+
+     DML are used to modify the database. It is responsible for all form of changes in the database.
+
+     DCL are used to GRANT and TAKE BACK authority from any database user.
+
+     TCL commands can only use with DML commands like INSERT,DELETE and UPDATE only.
+
+11. What is table in Database (DB)?
+       In DB, a table is a collection of data elements represented in a structured format in terms of rows and columns. 
+
+12.  What is column and Row (tuples) in table?
+
+      A tuple is simply a row contained in a table in the table space. A table usually contains columns and rows in which rows stand for records while columns stand for attributes. A single row of a table that has a single record for such a relation is known as a tuple. A Tuple is, therefore, a single entry in a table; it is also called a row or record. They usually represent a set of related data.
+
+
