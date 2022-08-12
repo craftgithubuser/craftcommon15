@@ -3,7 +3,7 @@ package arraychallenge;
 
 import java.util.Scanner;
 
-public class ChallengeOne_ArrayGet_Integer {
+public class ChallengeOne_Get_Integers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
