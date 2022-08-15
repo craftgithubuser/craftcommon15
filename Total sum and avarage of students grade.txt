@@ -1,0 +1,57 @@
+// I coulden't figure out how to do all the student grade at ones so I did them separately using different varable names.
+
+// The total Sum and Average of students.
+
+package com.day2;
+
+public class HomeWork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double [] markOf1stStudent = {67.5, 78, 80, 95.9, 55, 77};
+		double total = 0;
+		double avg;
+		for(int i=0; i<markOf1stStudent.length; i++) {
+			total = total + markOf1stStudent[i];
+			
+		}
+		
+avg = total/markOf1stStudent.length;
+System.out.println("The Sum of 1st Student Mark: " + total);
+System.out.println("Average of 1st Student Mark: " + avg);
+
+System.out.println("--------------------------------------");
+
+
+	double [] markOf2ndStudent = {59, 78, 80, 95.9, 75, 77, 90, 81};
+	double total2 = 0;
+	double avg2;
+	for(int k=0; k<markOf2ndStudent.length; k++) {
+		total2 = total2 + markOf2ndStudent[k];
+		
+	}
+	
+avg2 = total/markOf2ndStudent.length;
+System.out.println("The Sum of 2nd Student Mark: " + total2);
+System.out.println("Average of 2nd Student Mark: " + avg2);
+
+System.out.println("--------------------------------------");
+
+
+double [] markOf3rdStudent = {75, 78, 80, 59, 55, 77, 100, 81, 67, 78};
+double total3 = 0;
+double avg3;
+for(int l=0; l<markOf3rdStudent.length; l++) {
+	total3 = total3 + markOf3rdStudent[l];
+	
+}
+
+avg3 = total/markOf3rdStudent.length;
+System.out.println("The Sum of 3rd Student Mark: " + total3);
+System.out.println("Average of 3rd Student Mark: " + avg3);
+
+
+	}
+
+}
+ 
