@@ -1,0 +1,45 @@
+package com.Encapsulation;
+
+public class Account {
+
+	private String accountname;
+	private Long accountnumber;
+	private double accountdeposit;
+	private double accountbalance;
+	
+	
+	
+	
+	public String getAccountname() {
+		return accountname;
+	}
+	public void setAccountname(String accountname) {
+		this.accountname = accountname;
+	}
+	public Long getAccountnumber() {
+		return accountnumber;
+	}
+	public void setAccountnumber(Long accountnumber) {
+		this.accountnumber = accountnumber;
+	}
+	public double getAccountdeposit() {
+		return accountdeposit;
+	}
+	public void setAccountdeposit(double accountdeposit) {
+		
+	if(accountdeposit>=50)	{
+		
+		
+		this.accountdeposit = accountdeposit;
+	}
+	else 
+		System.err.println("invalid amount");
+	}
+	public double getAccountbalance() {
+		return accountbalance + accountdeposit;
+	}
+	public void setAccountbalance(double accountbalance) {
+		this.accountbalance = accountbalance;
+	}
+	
+	
