@@ -1,0 +1,9 @@
+CREATE TABLE customer(
+customer id integer, 
+Customerfirstname varchar(200),
+customerlastname varchar(200), 
+customerNikename varchar(200),
+customerage integer ,
+customergender char, 
+customer country varchar(200),
+customer salary dec); 
