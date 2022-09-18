@@ -16,7 +16,7 @@ public class NestedIfDemo1 {
 			else{
 				System.out.println("you are not eligible");
 			}
-		}W
+		}
 		else {
 			System.out.println("you are not eligible2");
 		}
