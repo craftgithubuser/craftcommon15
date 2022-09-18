@@ -17,7 +17,7 @@ public class ExceptionHandlingDemo {
      catch(Exception e) {
 	}
      finally {
-    	  System.out.println(After exception in the finally block);
+    	  System.out.println("After exception in the finally block");
      }
         System.out.println("after exeption");
         
