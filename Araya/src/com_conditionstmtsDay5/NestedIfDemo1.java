@@ -7,7 +7,6 @@ public class NestedIfDemo1 {
 		// TODO Auto-generated method stub
 		int age=15;
 		int weight=40;
-		
 		if(age>=18)
 		{
 			if(weight>50) {
